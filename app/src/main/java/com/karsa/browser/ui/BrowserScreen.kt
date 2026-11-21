@@ -127,7 +127,10 @@ fun BrowserScreen(
         )
     }
     var activeTabId by remember { mutableStateOf(tabs[0].id) }
-    val activeTab: BrowserTab get() = tabs.firstOrNull { it.id == activeTabId } ?: tabs[0]
+    // NOTE: val lokal TIDAK boleh punya custom getter (dulu: `val activeTab ... get() = ...`
+    // -> "Syntax error: Unexpected tokens" + cascade "must be initialized" di run #7).
+    // Val biasa sudah reaktif: tabs & activeTabId dibaca saat komposisi.
+    val activeTab: BrowserTab = tabs.firstOrNull { it.id == activeTabId } ?: tabs[0]
     var progress by remember { mutableStateOf(0) }
     var webViewRef by remember { mutableStateOf<WebView?>(null) }
     var lastLoadedUrl by remember { mutableStateOf<String?>(null) }
@@ -515,7 +518,8 @@ fun BrowserScreen(
                     // Simpan PDF via PrintManager (Android native, tanpa server).
                     runCatching {
                         val printManager = context.getSystemService(Context.PRINT_SERVICE) as android.print.PrintManager
-                        val adapter = webViewRef?.createPrintDocumentAdapter(activeTab.title)
+                        // createPrintDocumentAdapter via safe-call menghasilkan nullable -> batalkan runCatching bila null.
+                        val adapter = webViewRef?.createPrintDocumentAdapter(activeTab.title) ?: return@runCatching
                         printManager.print(activeTab.title, adapter, null)
                     }.onFailure { notice("Gagal simpan PDF: ${it.message}") }
                 },
