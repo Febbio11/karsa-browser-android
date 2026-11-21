@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Claude-style editorial: terang #F7F5F0, gelap #191816.
+         Warna Compose di ui/theme/Theme.kt adalah sumber utama;
+         tema XML ini hanya untuk splash / window background. -->
+    <style name="Theme.KarsaBrowser" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">#F7F5F0</item>
+        <item name="android:statusBarColor">#F7F5F0</item>
+        <item name="android:navigationBarColor">#F7F5F0</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>
