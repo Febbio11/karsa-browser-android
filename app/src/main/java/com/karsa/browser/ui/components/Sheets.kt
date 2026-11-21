@@ -46,6 +46,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.style.TextOverflow
@@ -124,14 +125,17 @@ fun SiteInfoPopover(
                     }
                     item {
                         Text("Proteksi Situs (Anti-Redirect Pintar)", fontFamily = KarsaSerif, style = MaterialTheme.typography.titleSmall, modifier = Modifier.padding(horizontal = 16.dp))
-                        ToggleRow("Anti-Redirect Media Sosial", "X / Discord / Telegram selalu terkunci 100% di Pop-up internal", settings.antiRedirectEnabled) {
-                            onUpdateSettings { it.copy(antiRedirectEnabled = it) }
+                        // NOTE: jangan pakai `it` ganda — `it` luar adalah Boolean baru dari
+                        // ToggleRow, `it` dalam adalah RenderSettings; dulu `it.copy(x = it)`
+                        // mengirim RenderSettings ke field Boolean (run #7: type mismatch).
+                        ToggleRow("Anti-Redirect Media Sosial", "X / Discord / Telegram selalu terkunci 100% di Pop-up internal", settings.antiRedirectEnabled) { enabled ->
+                            onUpdateSettings { it.copy(antiRedirectEnabled = enabled) }
                         }
-                        ToggleRow("Whitelist Wallet Eksternal", "Izinkan wc:// & rabby:// ke aplikasi wallet resmi (Rabby default)", settings.walletWhitelistEnabled) {
-                            onUpdateSettings { it.copy(walletWhitelistEnabled = it) }
+                        ToggleRow("Whitelist Wallet Eksternal", "Izinkan wc:// & rabby:// ke aplikasi wallet resmi (Rabby default)", settings.walletWhitelistEnabled) { enabled ->
+                            onUpdateSettings { it.copy(walletWhitelistEnabled = enabled) }
                         }
-                        ToggleRow("Matikan Pull-to-Refresh (situs ini)", "Cegah reload tidak sengaja saat geser layar", settings.disablePullToRefreshPerSite) {
-                            onUpdateSettings { it.copy(disablePullToRefreshPerSite = it) }
+                        ToggleRow("Matikan Pull-to-Refresh (situs ini)", "Cegah reload tidak sengaja saat geser layar", settings.disablePullToRefreshPerSite) { enabled ->
+                            onUpdateSettings { it.copy(disablePullToRefreshPerSite = enabled) }
                         }
                     }
                     item {
@@ -480,8 +484,8 @@ fun MenuSheet(
                             OutlinedButton(onClick = { onZoom(100) }) { Text("Fit 100%") }
                             OutlinedButton(onClick = { onZoom(settings.zoomPercent + 10) }) { Text("+") }
                         }
-                        ToggleRow("Paksa Zoom", "Abaikan user-scalable=no di meta viewport", settings.forceZoom) {
-                            onUpdateSettings { it.copy(forceZoom = it) }
+                        ToggleRow("Paksa Zoom", "Abaikan user-scalable=no di meta viewport", settings.forceZoom) { enabled ->
+                            onUpdateSettings { it.copy(forceZoom = enabled) }
                         }
                     }
                     MenuSub.DEVTOOLS -> Column(modifier = Modifier.weight(1f).padding(16.dp)) {
