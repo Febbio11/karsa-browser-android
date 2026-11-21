@@ -31,9 +31,12 @@ jobs:
           distribution: temurin
           java-version: "17"
 
-      - name: Set up Android SDK
-        uses: android-actions/setup-android@v3
-
+      # NOTE: JANGAN pakai android-actions/setup-android@v3 — action itu
+      # memanggil `sdkmanager "tools"` dan gagal (paket 'tools' sudah tidak
+      # ada di repo SDK: "Failed to find package 'tools'", exit 1).
+      # Runner ubuntu-latest SUDAH punya Android SDK terpasang
+      # (ANDROID_HOME=/usr/local/lib/android/sdk), Gradle + AGP langsung
+      # memakainya. Run #1 gagal di step ini dalam 18 detik, 22 Nov 03:28 WIB.
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v3
         with:
