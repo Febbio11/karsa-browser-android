@@ -1,0 +1,96 @@
+name: Build APK
+
+# Karsa Browser v1 — build APK di GitHub Actions (WAJIB).
+# Jangan build berat di VM lokal. Setiap push ke main menghasilkan APK
+# siap unduh di tab Actions > Artifacts.
+# Release signing: isi GitHub Secrets (lihat README). Jika secret kosong,
+# workflow otomatis fallback ke debug build — tetap sukses, tanpa error.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Build APK
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v3
+        with:
+          gradle-version: "8.7"
+
+      # NOTE: build memakai `gradle` dari setup-gradle (8.7), bukan ./gradlew,
+      # agar push via GitHub connector (snapshot UTF-8 saja, tanpa biner
+      # gradle-wrapper.jar) tetap bisa build. gradlew + wrapper.jar tetap
+      # ada di VM lokal untuk dev lokal.
+      - name: Prepare release signing (if secrets present)
+        env:
+          ANDROID_KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+          KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+        run: |
+          if [ -n "$ANDROID_KEYSTORE_BASE64" ] && [ -n "$KEYSTORE_PASSWORD" ] && [ -n "$KEY_ALIAS" ] && [ -n "$KEY_PASSWORD" ]; then
+            echo "$ANDROID_KEYSTORE_BASE64" | base64 --decode > app/keystore.jks
+            cat > keystore.properties <<EOF
+          storeFile=app/keystore.jks
+          storePassword=$KEYSTORE_PASSWORD
+          keyAlias=$KEY_ALIAS
+          keyPassword=$KEY_PASSWORD
+          EOF
+            echo "BUILD_TYPE=release" >> "$GITHUB_ENV"
+            echo "Signing: release (secrets found)"
+          else
+            echo "BUILD_TYPE=debug" >> "$GITHUB_ENV"
+            echo "Signing: fallback debug (secrets not set — see README)"
+          fi
+
+      - name: Build APK
+        run: |
+          if [ "$BUILD_TYPE" = "release" ]; then
+            gradle assembleRelease --stacktrace
+          else
+            gradle assembleDebug --stacktrace
+          fi
+
+      - name: List APK outputs
+        run: find app/build/outputs/apk -type f -name "*.apk" -exec ls -lh {} \;
+
+      - name: Upload APK (debug)
+        if: env.BUILD_TYPE == 'debug'
+        uses: actions/upload-artifact@v4
+        with:
+          name: karsa-browser-debug-apk
+          path: app/build/outputs/apk/debug/*.apk
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Upload APK (release)
+        if: env.BUILD_TYPE == 'release'
+        uses: actions/upload-artifact@v4
+        with:
+          name: karsa-browser-release-apk
+          path: app/build/outputs/apk/release/*.apk
+          if-no-files-found: error
+          retention-days: 30
+          
