@@ -9,7 +9,7 @@ import android.net.Uri
 import android.os.Environment
 import android.provider.Settings
 import androidx.core.content.FileProvider
-import androidx.core.content.PackageInfoCompat
+import androidx.core.content.pm.PackageInfoCompat
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import java.io.File
