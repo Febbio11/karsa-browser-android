@@ -1,1 +1,210 @@
-cGFja2FnZSBjb20ua2Fyc2EuYnJvd3Nlci5icm93c2VyCgppbXBvcnQgYW5kcm9pZC5hbm5vdGF0aW9uLlN1cHByZXNzTGludAppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGFuZHJvaWQuZ3JhcGhpY3MuQml0bWFwCmltcG9ydCBhbmRyb2lkLnZpZXcuVmlld0dyb3VwCmltcG9ydCBhbmRyb2lkLndlYmtpdC5Db29raWVNYW5hZ2VyCmltcG9ydCBhbmRyb2lkLndlYmtpdC5XZWJDaHJvbWVDbGllbnQKaW1wb3J0IGFuZHJvaWQud2Via2l0LldlYlJlc291cmNlUmVxdWVzdAppbXBvcnQgYW5kcm9pZC53ZWJraXQuV2ViU2V0dGluZ3MKaW1wb3J0IGFuZHJvaWQud2Via2l0LldlYlZpZXcKaW1wb3J0IGFuZHJvaWQud2Via2l0LldlYlZpZXdDbGllbnQKaW1wb3J0IGFuZHJvaWR4LndlYmtpdC5XZWJTZXR0aW5nc0NvbXBhdAppbXBvcnQgYW5kcm9pZHgud2Via2l0LldlYlZpZXdGZWF0dXJlCmltcG9ydCBjb20ua2Fyc2EuYnJvd3Nlci51c2Vyc2NyaXB0LlVzZXJTY3JpcHRNYW5hZ2VyCgovKioKICogRW5naW5lIFdlYiB2MjogQW5kcm9pZCBTeXN0ZW0gV2ViVmlldyB5YW5nIGRpbW9kaWZpa2FzaSBtYWtzaW1hbC4KICogSkFOR0FOIGtvbXBpbGFzaSBDaHJvbWl1bSBkYXJpIG5vbCBkaSBWTSAobGloYXQgUkVBRE1FKSDigJQgdjEgaW5pCiAqIGFkYWxhaCBqYWx1ciB5YW5nIGRpc2VwYWthdGkgRmViYmlvIHVudHVrIE1WUC4KICoKICogV2FqaWIgKHNwZXNpZmlrYXNpKToKICogLSBNb2RlIE1vYmlsZSA9IERFRkFVTFQgKHByb3RvdGlwZSBjb21taXQgMzZjZDc1MiBtZW1iYWxpayB2MSB5YW5nCiAqICAgZGVmYXVsdC1ueWEgVUEgZGVza3RvcCkuIFVBIG1vYmlsZSBiZXJzaWggdGFucGEgIjsgd3YiIGFnYXIgR29vZ2xlICYKICogICBZb3VUdWJlIHRhbXBpbCBub3JtYWwgZGFuIGxvZ2luIEdvb2dsZS9YIGFtYW4uCiAqIC0gTW9kZSBEZXNrdG9wIGhhbnlhIHNhYXQgdG9nZ2xlIGFrdGlmIChwZXIgdGFiKTogVUEgZGVza3RvcCArIHdpZGUgdmlld3BvcnQuCiAqIC0gc2V0U3VwcG9ydE11bHRpcGxlV2luZG93cyh0cnVlKQogKiAtIGphdmFTY3JpcHRDYW5PcGVuV2luZG93c0F1dG9tYXRpY2FsbHkgPSB0cnVlCiAqIC0gZG9tU3RvcmFnZUVuYWJsZWQgPSB0cnVlCiAqIC0gc2V0QWNjZXB0VGhpcmRQYXJ0eUNvb2tpZXMod2ViVmlldywgdHJ1ZSkKICogLSBHb29nbGUgT0F1dGggKHRhbWJhaGFuIDIyIE5vdiAyMDI2KTogaGFwdXMgaGVhZGVyIFgtUmVxdWVzdGVkLVdpdGgKICogICB2aWEgV2ViU2V0dGluZ3NDb21wYXQuc2V0UmVxdWVzdGVkV2l0aEhlYWRlck9yaWdpbkFsbG93TGlzdCguLi4sIGVtcHR5U2V0KCkpCiAqICAgYWdhciBHb29nbGUgdGlkYWsgbWVuZGV0ZWtzaSBXZWJWaWV3IGRhbiBtZWxlbXBhciA0MDMgZGlzYWxsb3dlZF91c2VyYWdlbnQuCiAqICAgRHVhIGxhcGlzIGluaSBzYWxpbmcgbWVsZW5na2FwaTogVUEgYmVyc2loIHNhamEgVElEQUsgY3VrdXAsIGthcmVuYQogKiAgIFdlYlZpZXcgdGV0YXAgbWVuZ2lyaW0gWC1SZXF1ZXN0ZWQtV2l0aDogPHBhY2thZ2UgbmFtZT4gc2VjYXJhIGRlZmF1bHQuCiAqLwpvYmplY3QgS2Fyc2FVc2VyQWdlbnRQb2xpY3kgewogICAgLyoqIE1vYmlsZSBkZWZhdWx0OiBDaHJvbWUgTW9iaWxlIGJlcnNpaCBUQU5QQSAiOyB3diIgKFBpeGVsIDgsIENocm9tZSAxMzEpLiAqLwogICAgY29uc3QgdmFsIE1PQklMRSA9CiAgICAgICAgIk1vemlsbGEvNS4wIChMaW51eDsgQW5kcm9pZCAxNDsgUGl4ZWwgOCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzEzMS4wLjY3NzguMTM1IE1vYmlsZSBTYWZhcmkvNTM3LjM2IgogICAgLyoqIERlc2t0b3AgKGhhbnlhIHNhYXQgdG9nZ2xlIGFrdGlmKTogQ2hyb21lIERlc2t0b3AgV2luZG93cy4gKi8KICAgIGNvbnN0IHZhbCBERVNLVE9QID0KICAgICAgICAiTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzEzMS4wLjY3NzguMTM1IFNhZmFyaS81MzcuMzYiCgogICAgZnVuIGFwcGx5VG9XZWJTZXR0aW5ncyhzZXR0aW5nczogV2ViU2V0dGluZ3MsIGRlc2t0b3BNb2RlOiBCb29sZWFuKSB7CiAgICAgICAgc2V0dGluZ3MudXNlckFnZW50U3RyaW5nID0gaWYgKGRlc2t0b3BNb2RlKSBERVNLVE9QIGVsc2UgTU9CSUxFCiAgICAgICAgc2V0dGluZ3MudXNlV2lkZVZpZXdQb3J0ID0gZGVza3RvcE1vZGUKICAgICAgICBzZXR0aW5ncy5sb2FkV2l0aE92ZXJ2aWV3TW9kZSA9IGRlc2t0b3BNb2RlCiAgICB9Cn0KCi8qKiBBbGlhcyBsYW1hICh2MSkg4oCUIGRpcGVydGFoYW5rYW4gYWdhciBrb2RlIGxhbWEgdGV0YXAga29tcGlsLiAqLwpvYmplY3QgRGVza3RvcFVzZXJBZ2VudCB7CiAgICBjb25zdCB2YWwgREVTS1RPUDogU3RyaW5nID0gS2Fyc2FVc2VyQWdlbnRQb2xpY3kuREVTS1RPUAp9CgovKioKICogS29tcGF0aWJpbGl0YXMgTG9naW4gZGVuZ2FuIEdvb2dsZSAoR29vZ2xlIE9BdXRoKSDigJQgYW50aSA0MDMgZGlzYWxsb3dlZF91c2VyYWdlbnQuCiAqCiAqIEdvb2dsZSBtZW1ibG9raXIgV2ViVmlldyBsZXdhdCBEVUEgc2lueWFsOiAoMSkgIjsgd3YiIGRpIFVzZXItQWdlbnQgZGFuCiAqICgyKSBoZWFkZXIgYFgtUmVxdWVzdGVkLVdpdGg6IGNvbS5rYXJzYS5icm93c2VyYCB5YW5nIGRpa2lyaW0gV2ViVmlldwogKiBzZWNhcmEgZGVmYXVsdC4gTWVuZ2hhcHVzICgxKSBzYWphIHRpZGFrIGN1a3VwLgogKgogKiBgc2V0UmVxdWVzdGVkV2l0aEhlYWRlck9yaWdpbkFsbG93TGlzdChzZXR0aW5ncywgZW1wdHlTZXQoKSlgID0gaGVhZGVyCiAqIFgtUmVxdWVzdGVkLVdpdGggVElEQUsgZGlraXJpbSBrZSBvcmlnaW4gbWFuYSBwdW4sIGphZGkgR29vZ2xlIG1lbGloYXQKICogcmVxdWVzdCBpbmkgc2ViYWdhaSBDaHJvbWUgYmlhc2EuCiAqIERpamFnYSBkZW5nYW4gV2ViVmlld0ZlYXR1cmUuaXNGZWF0dXJlU3VwcG9ydGVkKC4uLikgYWdhciBXZWJWaWV3IGxhbWEKICogKHNlYmVsdW0gV2ViS2l0IDEuNykgdGlkYWsgY3Jhc2gg4oCUIGRpIHNpdHUgZmFsbGJhY2stbnlhIGhhbnlhIFVBIGJlcnNpaC4KICogRGlwYWthaSBkaSBXZWJWaWV3IHV0YW1hIERBTiBXZWJWaWV3IHBvcC11cCAob25DcmVhdGVXaW5kb3cpLCBrYXJlbmEKICogYWx1ciBPQXV0aCBHb29nbGUgc2VyaW5nIGxld2F0IHdpbmRvdy5vcGVuKCkuCiAqLwpvYmplY3QgR29vZ2xlT0F1dGhDb21wYXQgewogICAgZnVuIGFwcGx5KHNldHRpbmdzOiBXZWJTZXR0aW5ncykgewogICAgICAgIGlmIChXZWJWaWV3RmVhdHVyZS5pc0ZlYXR1cmVTdXBwb3J0ZWQoV2ViVmlld0ZlYXR1cmUuUkVRVUVTVEVEX1dJVEhfSEVBREVSX0FMTE9XX0xJU1QpKSB7CiAgICAgICAgICAgIFdlYlNldHRpbmdzQ29tcGF0LnNldFJlcXVlc3RlZFdpdGhIZWFkZXJPcmlnaW5BbGxvd0xpc3Qoc2V0dGluZ3MsIGVtcHR5U2V0KCkpCiAgICAgICAgfQogICAgfQp9CgpjbGFzcyBLYXJzYVdlYlZpZXdDYWxsYmFja3MoCiAgICB2YWwgb25QYWdlU3RhcnRlZDogKFN0cmluZykgLT4gVW5pdCA9IHt9LAogICAgdmFsIG9uUGFnZUZpbmlzaGVkOiAoU3RyaW5nLCBTdHJpbmcpIC0+IFVuaXQgPSB7IF8sIF8gLT4gfSwKICAgIHZhbCBvblByb2dyZXNzOiAoSW50KSAtPiBVbml0ID0ge30sCiAgICB2YWwgb25Qb3B1cFJlcXVlc3Q6IChTdHJpbmcpIC0+IFVuaXQgPSB7fSwKICAgIHZhbCBvbldhbGxldERlZXBMaW5rOiAoU3RyaW5nLCBTdHJpbmc/KSAtPiBVbml0ID0geyBfLCBfIC0+IH0sCiAgICB2YWwgb25CbG9ja2VkU29jaWFsOiAoU3RyaW5nLCBTdHJpbmcpIC0+IFVuaXQgPSB7IF8sIF8gLT4gfQopCgpAU3VwcHJlc3NMaW50KCJTZXRKYXZhU2NyaXB0RW5hYmxlZCIpCkBTdXBwcmVzcygiREVQUkVDQVRJT04iKQpmdW4gY3JlYXRlS2Fyc2FXZWJWaWV3KAogICAgY29udGV4dDogQ29udGV4dCwKICAgIGd1YXJkOiBOYXZpZ2F0aW9uR3VhcmQsCiAgICBzZXR0aW5nczogUmVuZGVyU2V0dGluZ3MsCiAgICB1c2VyU2NyaXB0czogTGlzdDxjb20ua2Fyc2EuYnJvd3Nlci51c2Vyc2NyaXB0LlVzZXJTY3JpcHQ+LAogICAgc2NyaXB0TWFuYWdlcjogVXNlclNjcmlwdE1hbmFnZXI/LAogICAgZGVza3RvcE1vZGU6IEJvb2xlYW4gPSBmYWxzZSwKICAgIGNhbGxiYWNrczogS2Fyc2FXZWJWaWV3Q2FsbGJhY2tzID0gS2Fyc2FXZWJWaWV3Q2FsbGJhY2tzKCkKKTogV2ViVmlldyB7CiAgICB2YWwgd2ViVmlldyA9IFdlYlZpZXcoY29udGV4dCkKICAgIHdlYlZpZXcubGF5b3V0UGFyYW1zID0gVmlld0dyb3VwLkxheW91dFBhcmFtcygKICAgICAgICBWaWV3R3JvdXAuTGF5b3V0UGFyYW1zLk1BVENIX1BBUkVOVCwgVmlld0dyb3VwLkxheW91dFBhcmFtcy5NQVRDSF9QQVJFTlQKICAgICkKCiAgICB2YWwgd3M6IFdlYlNldHRpbmdzID0gd2ViVmlldy5zZXR0aW5ncwogICAgd3MuamF2YVNjcmlwdEVuYWJsZWQgPSB0cnVlCiAgICB3cy5kb21TdG9yYWdlRW5hYmxlZCA9IHRydWUKICAgIHdzLmRhdGFiYXNlRW5hYmxlZCA9IHRydWUKICAgIHdzLmphdmFTY3JpcHRDYW5PcGVuV2luZG93c0F1dG9tYXRpY2FsbHkgPSB0cnVlCiAgICB3cy5zZXRTdXBwb3J0TXVsdGlwbGVXaW5kb3dzKHRydWUpCiAgICAvLyBNb2RlIE1vYmlsZSBkZWZhdWx0OyBEZXNrdG9wIGhhbnlhIGJpbGEgdG9nZ2xlIGFrdGlmIChwZXIgdGFiKS4KICAgIEthcnNhVXNlckFnZW50UG9saWN5LmFwcGx5VG9XZWJTZXR0aW5ncyh3cywgZGVza3RvcE1vZGUpCiAgICAvLyBHb29nbGUgT0F1dGg6IGhhcHVzIFgtUmVxdWVzdGVkLVdpdGggKGxpaGF0IEdvb2dsZU9BdXRoQ29tcGF0IGRpIGF0YXMpLgogICAgR29vZ2xlT0F1dGhDb21wYXQuYXBwbHkod3MpCiAgICB3cy5idWlsdEluWm9vbUNvbnRyb2xzID0gdHJ1ZQogICAgd3MuZGlzcGxheVpvb21Db250cm9scyA9IGZhbHNlCiAgICAvLyBQYWtzYSBab29tIHYxOiBhYmFpa2FuIHVzZXItc2NhbGFibGU9bm8gZGkgbWV0YSB2aWV3cG9ydCAoYmVzdC1lZmZvcnQgZGkgV2ViVmlldykuCiAgICB3cy5zZXRTdXBwb3J0Wm9vbShzZXR0aW5ncy5mb3JjZVpvb20pCiAgICB3cy50ZXh0Wm9vbSA9IHNldHRpbmdzLnpvb21QZXJjZW50CiAgICB3cy5tZWRpYVBsYXliYWNrUmVxdWlyZXNVc2VyR2VzdHVyZSA9IGZhbHNlCiAgICB3cy5taXhlZENvbnRlbnRNb2RlID0gV2ViU2V0dGluZ3MuTUlYRURfQ09OVEVOVF9DT01QQVRJQklMSVRZX01PREUKICAgIHdzLmNhY2hlTW9kZSA9IFdlYlNldHRpbmdzLkxPQURfREVGQVVMVAogICAgd3MuYWxsb3dGaWxlQWNjZXNzID0gZmFsc2UKICAgIHdzLmFsbG93Q29udGVudEFjY2VzcyA9IHRydWUKCiAgICAvLyBDb29raWUgcGloYWsga2V0aWdhOiB3YWppYiBhZ2FyIGxvZ2luIEdvb2dsZSAvIFggLyBEaXNjb3JkIGxhbmNhci4KICAgIENvb2tpZU1hbmFnZXIuZ2V0SW5zdGFuY2UoKS5zZXRBY2NlcHRDb29raWUodHJ1ZSkKICAgIENvb2tpZU1hbmFnZXIuZ2V0SW5zdGFuY2UoKS5zZXRBY2NlcHRUaGlyZFBhcnR5Q29va2llcyh3ZWJWaWV3LCB0cnVlKQoKICAgIC8vIEZvcmNlIERhcmsgdjEgKFdlYlZpZXcpOiBwYWthaSBGT1JDRV9EQVJLX0FVVE8gZGkgQW5kcm9pZCAxMCsgYmlsYSBha3RpZi4KICAgIGlmIChzZXR0aW5ncy5mb3JjZURhcmtNb2RlKSB7CiAgICAgICAgd3MuZm9yY2VEYXJrID0gV2ViU2V0dGluZ3MuRk9SQ0VfREFSS19PTgogICAgfQoKICAgIHdlYlZpZXcud2ViVmlld0NsaWVudCA9IG9iamVjdCA6IFdlYlZpZXdDbGllbnQoKSB7CiAgICAgICAgb3ZlcnJpZGUgZnVuIHNob3VsZE92ZXJyaWRlVXJsTG9hZGluZyh2aWV3OiBXZWJWaWV3LCByZXF1ZXN0OiBXZWJSZXNvdXJjZVJlcXVlc3QpOiBCb29sZWFuIHsKICAgICAgICAgICAgdmFsIHVybCA9IHJlcXVlc3QudXJsLnRvU3RyaW5nKCkKICAgICAgICAgICAgcmV0dXJuIHdoZW4gKHZhbCBkID0gZ3VhcmQuaW50ZXJjZXB0KHVybCwgaXNQb3B1cFJlcXVlc3QgPSBmYWxzZSkpIHsKICAgICAgICAgICAgICAgIGlzIE5hdmlnYXRpb25EZWNpc2lvbi5BbGxvd0luQ3VycmVudFRhYiAtPiBmYWxzZSAvLyBiaWFya2FuIFdlYlZpZXcgeWFuZyBsb2FkCiAgICAgICAgICAgICAgICBpcyBOYXZpZ2F0aW9uRGVjaXNpb24uT3BlbkluRmxleGlibGVQb3B1cCAtPiB7CiAgICAgICAgICAgICAgICAgICAgY2FsbGJhY2tzLm9uQmxvY2tlZFNvY2lhbChkLnJlc29sdmVkVXJsLCBkLnJlYXNvbikKICAgICAgICAgICAgICAgICAgICB0cnVlCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBpcyBOYXZpZ2F0aW9uRGVjaXNpb24uQXNrRXh0ZXJuYWxXYWxsZXQgLT4gewogICAgICAgICAgICAgICAgICAgIGNhbGxiYWNrcy5vbldhbGxldERlZXBMaW5rKGQuZGVlcExpbmtVcmksIGQudGFyZ2V0UGFja2FnZSkKICAgICAgICAgICAgICAgICAgICB0cnVlCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBpcyBOYXZpZ2F0aW9uRGVjaXNpb24uQmxvY2tTaWxlbnRseSAtPiB0cnVlCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIG92ZXJyaWRlIGZ1biBvblBhZ2VTdGFydGVkKHZpZXc6IFdlYlZpZXcsIHVybDogU3RyaW5nLCBmYXZpY29uOiBCaXRtYXA/KSB7CiAgICAgICAgICAgIHN1cGVyLm9uUGFnZVN0YXJ0ZWQodmlldywgdXJsLCBmYXZpY29uKQogICAgICAgICAgICBjYWxsYmFja3Mub25QYWdlU3RhcnRlZCh1cmwpCiAgICAgICAgfQoKICAgICAgICBvdmVycmlkZSBmdW4gb25QYWdlRmluaXNoZWQodmlldzogV2ViVmlldywgdXJsOiBTdHJpbmcpIHsKICAgICAgICAgICAgc3VwZXIub25QYWdlRmluaXNoZWQodmlldywgdXJsKQogICAgICAgICAgICBjYWxsYmFja3Mub25QYWdlRmluaXNoZWQodXJsLCB2aWV3LnRpdGxlID86ICIiKQogICAgICAgICAgICAvLyBJbmpla3NpIHVzZXJzY3JpcHQgYWt0aWYgKGRvY3VtZW50LWVuZCBkaSB2MTsgZG9jdW1lbnQtc3RhcnQKICAgICAgICAgICAgLy8gcGVudWggYnV0dWggV2ViVmlld0Fzc2V0TG9hZGVyIC8gZXZhbHVhdGVKYXZhc2NyaXB0IGRpIG9uUGFnZVN0YXJ0ZWQKICAgICAgICAgICAgLy8gdW50dWsgdjIg4oCUIHBheWxvYWQgdGV0YXAgc2FtYSwgaGFueWEgdGltaW5nIHlhbmcgZGlzZW1wdXJuYWthbikuCiAgICAgICAgICAgIHZhbCBjb2RlID0gc2NyaXB0TWFuYWdlcj8uY29tYmluZWRDb2RlRm9yKHVybCwgdXNlclNjcmlwdHMpLm9yRW1wdHkoKQogICAgICAgICAgICBpZiAoY29kZS5pc05vdEVtcHR5KCkpIHZpZXcuZXZhbHVhdGVKYXZhc2NyaXB0KGNvZGUsIG51bGwpCiAgICAgICAgICAgIC8vIERlc2t0b3Agc3Bvb2YgcmluZ2FuOiBIQU5ZQSBzYWF0IE1vZGUgRGVza3RvcCBha3RpZiDigJQgaGFwdXMgamVqYWsKICAgICAgICAgICAgLy8gbW9iaWxlIGRpIG5hdmlnYXRvci4gRGkgTW9kZSBNb2JpbGUgKGRlZmF1bHQpIGphbmdhbiBkaXNlbnR1aCwKICAgICAgICAgICAgLy8gc3VwYXlhIEdvb2dsZS9Zb3VUdWJlIG1lbGloYXQgQ2hyb21lIE1vYmlsZSBhc2xpLgogICAgICAgICAgICBpZiAoZGVza3RvcE1vZGUpIHsKICAgICAgICAgICAgICAgIHZpZXcuZXZhbHVhdGVKYXZhc2NyaXB0KAogICAgICAgICAgICAgICAgICAgICIoZnVuY3Rpb24oKXt0cnl7T2JqZWN0LmRlZmluZVByb3BlcnR5KE5hdmlnYXRvci5wcm90b3R5cGUsJ3BsYXRmb3JtJyx7Z2V0OmZ1bmN0aW9uKCl7cmV0dXJuICdXaW4zMid9fSk7T2JqZWN0LmRlZmluZVByb3BlcnR5KE5hdmlnYXRvci5wcm90b3R5cGUsJ21heFRvdWNoUG9pbnRzJyx7Z2V0OmZ1bmN0aW9uKCl7cmV0dXJuIDB9fSk7fWNhdGNoKGUpe319KSgpOyIsCiAgICAgICAgICAgICAgICAgICAgbnVsbAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CiAgICAgICAgICAgIC8vIEFkLWJsb2NrZXIgdjEgKHJpbmdhbiwgYmVyYmFzaXMgQ1NTKTogc2VtYnVueWlrYW4gc2xvdCBpa2xhbiB1bXVtLgogICAgICAgICAgICBpZiAoc2V0dGluZ3MuYWRCbG9ja0VuYWJsZWQpIHsKICAgICAgICAgICAgICAgIHZpZXcuZXZhbHVhdGVKYXZhc2NyaXB0KAogICAgICAgICAgICAgICAgICAgICIoZnVuY3Rpb24oKXt2YXIgcz1kb2N1bWVudC5jcmVhdGVFbGVtZW50KCdzdHlsZScpO3MudGV4dENvbnRlbnQ9J1tjbGFzcyo9YWRzXSxbaWQqPWFkc10saWZyYW1lW3NyYyo9ZG91YmxlY2xpY2tde2Rpc3BsYXk6bm9uZSFpbXBvcnRhbnR9Jztkb2N1bWVudC5kb2N1bWVudEVsZW1lbnQuYXBwZW5kQ2hpbGQocyk7fSkoKTsiLAogICAgICAgICAgICAgICAgICAgIG51bGwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICB3ZWJWaWV3LndlYkNocm9tZUNsaWVudCA9IG9iamVjdCA6IFdlYkNocm9tZUNsaWVudCgpIHsKICAgICAgICBvdmVycmlkZSBmdW4gb25Qcm9ncmVzc0NoYW5nZWQodmlldzogV2ViVmlldywgbmV3UHJvZ3Jlc3M6IEludCkgewogICAgICAgICAgICBjYWxsYmFja3Mub25Qcm9ncmVzcyhuZXdQcm9ncmVzcykKICAgICAgICB9CgogICAgICAgIC8vIHdpbmRvdy5vcGVuKCkgLyB0YXJnZXQ9X2JsYW5rIC0+IFBvcC11cCBGbGVrc2liZWwsIGJ1a2FuIHRhYiBiYXJ1IHBha3NhLgogICAgICAgIG92ZXJyaWRlIGZ1biBvbkNyZWF0ZVdpbmRvdyh2aWV3OiBXZWJWaWV3LCBpc0RpYWxvZzogQm9vbGVhbiwgaXNVc2VyR2VzdHVyZTogQm9vbGVhbiwgcmVzdWx0TXNnOiBhbmRyb2lkLm9zLk1lc3NhZ2UpOiBCb29sZWFuIHsKICAgICAgICAgICAgdmFsIHRyYW5zcG9ydCA9IHJlc3VsdE1zZy5vYmogYXM/IFdlYlZpZXcuV2ViVmlld1RyYW5zcG9ydCA/OiByZXR1cm4gZmFsc2UKICAgICAgICAgICAgdmFsIHBvcHVwVmlldyA9IFdlYlZpZXcodmlldy5jb250ZXh0KQogICAgICAgICAgICBwb3B1cFZpZXcuc2V0dGluZ3MuamF2YVNjcmlwdEVuYWJsZWQgPSB0cnVlCiAgICAgICAgICAgIHBvcHVwVmlldy5zZXR0aW5ncy5kb21TdG9yYWdlRW5hYmxlZCA9IHRydWUKICAgICAgICAgICAgcG9wdXBWaWV3LnNldHRpbmdzLmphdmFTY3JpcHRDYW5PcGVuV2luZG93c0F1dG9tYXRpY2FsbHkgPSB0cnVlCiAgICAgICAgICAgIHBvcHVwVmlldy5zZXR0aW5ncy5zZXRTdXBwb3J0TXVsdGlwbGVXaW5kb3dzKHRydWUpCiAgICAgICAgICAgIEthcnNhVXNlckFnZW50UG9saWN5LmFwcGx5VG9XZWJTZXR0aW5ncyhwb3B1cFZpZXcuc2V0dGluZ3MsIGRlc2t0b3BNb2RlKQogICAgICAgICAgICAvLyBQb3AtdXAgT0F1dGggKEdvb2dsZSAvIFggLyBEaXNjb3JkKSBqdWdhIHdhamliIHRhbnBhIFgtUmVxdWVzdGVkLVdpdGguCiAgICAgICAgICAgIEdvb2dsZU9BdXRoQ29tcGF0LmFwcGx5KHBvcHVwVmlldy5zZXR0aW5ncykKICAgICAgICAgICAgQ29va2llTWFuYWdlci5nZXRJbnN0YW5jZSgpLnNldEFjY2VwdFRoaXJkUGFydHlDb29raWVzKHBvcHVwVmlldywgdHJ1ZSkKICAgICAgICAgICAgdHJhbnNwb3J0LndlYlZpZXcgPSBwb3B1cFZpZXcKICAgICAgICAgICAgcmVzdWx0TXNnLnNlbmRUb1RhcmdldCgpCiAgICAgICAgICAgIC8vIFVSTCBwb3AtdXAgZGliYWNhIHNldGVsYWggbG9hZDsgaG9zdCAoQnJvd3NlclNjcmVlbikgbWVuYW1waWxrYW4KICAgICAgICAgICAgLy8gRmxleGlibGVQb3B1cCBzYWF0IG9uQ3JlYXRlV2luZG93IHRlcnBhbmdnaWwgdmlhIGNhbGxiYWNrIGluaS4KICAgICAgICAgICAgY2FsbGJhY2tzLm9uUG9wdXBSZXF1ZXN0KHBvcHVwVmlldy51cmwgPzogImFib3V0OmJsYW5rIikKICAgICAgICAgICAgcmV0dXJuIHRydWUKICAgICAgICB9CiAgICB9CiAgICByZXR1cm4gd2ViVmlldwp9Cg==
+package com.karsa.browser.browser
+
+import android.annotation.SuppressLint
+import android.content.Context
+import android.graphics.Bitmap
+import android.view.ViewGroup
+import android.webkit.CookieManager
+import android.webkit.WebChromeClient
+import android.webkit.WebResourceRequest
+import android.webkit.WebSettings
+import android.webkit.WebView
+import android.webkit.WebViewClient
+import androidx.webkit.WebSettingsCompat
+import androidx.webkit.WebViewFeature
+import com.karsa.browser.userscript.UserScriptManager
+
+/**
+ * Engine Web v2: Android System WebView yang dimodifikasi maksimal.
+ * JANGAN kompilasi Chromium dari nol di VM (lihat README) — v1 ini
+ * adalah jalur yang disepakati Febbio untuk MVP.
+ *
+ * Wajib (spesifikasi):
+ * - Mode Mobile = DEFAULT (prototipe commit 36cd752 membalik v1 yang
+ *   default-nya UA desktop). UA mobile bersih tanpa "; wv" agar Google &
+ *   YouTube tampil normal dan login Google/X aman.
+ * - Mode Desktop hanya saat toggle aktif (per tab): UA desktop + wide viewport.
+ * - setSupportMultipleWindows(true)
+ * - javaScriptCanOpenWindowsAutomatically = true
+ * - domStorageEnabled = true
+ * - setAcceptThirdPartyCookies(webView, true)
+ * - Google OAuth (tambahan 22 Nov 2026): hapus header X-Requested-With
+ *   via WebSettingsCompat.setRequestedWithHeaderOriginAllowList(..., emptySet())
+ *   agar Google tidak mendeteksi WebView dan melempar 403 disallowed_useragent.
+ *   Dua lapis ini saling melengkapi: UA bersih saja TIDAK cukup, karena
+ *   WebView tetap mengirim X-Requested-With: <package name> secara default.
+ */
+object KarsaUserAgentPolicy {
+    /** Mobile default: Chrome Mobile bersih TANPA "; wv" (Pixel 8, Chrome 131). */
+    const val MOBILE =
+        "Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.6778.135 Mobile Safari/537.36"
+    /** Desktop (hanya saat toggle aktif): Chrome Desktop Windows. */
+    const val DESKTOP =
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.6778.135 Safari/537.36"
+
+    fun applyToWebSettings(settings: WebSettings, desktopMode: Boolean) {
+        settings.userAgentString = if (desktopMode) DESKTOP else MOBILE
+        settings.useWideViewPort = desktopMode
+        settings.loadWithOverviewMode = desktopMode
+    }
+}
+
+/** Alias lama (v1) — dipertahankan agar kode lama tetap kompil. */
+object DesktopUserAgent {
+    const val DESKTOP: String = KarsaUserAgentPolicy.DESKTOP
+}
+
+/**
+ * Kompatibilitas Login dengan Google (Google OAuth) — anti 403 disallowed_useragent.
+ *
+ * Google memblokir WebView lewat DUA sinyal: (1) "; wv" di User-Agent dan
+ * (2) header `X-Requested-With: com.karsa.browser` yang dikirim WebView
+ * secara default. Menghapus (1) saja tidak cukup.
+ *
+ * `setRequestedWithHeaderOriginAllowList(settings, emptySet())` = header
+ * X-Requested-With TIDAK dikirim ke origin mana pun, jadi Google melihat
+ * request ini sebagai Chrome biasa.
+ * Dijaga dengan WebViewFeature.isFeatureSupported(...) agar WebView lama
+ * (sebelum WebKit 1.7) tidak crash — di situ fallback-nya hanya UA bersih.
+ * Dipakai di WebView utama DAN WebView pop-up (onCreateWindow), karena
+ * alur OAuth Google sering lewat window.open().
+ */
+object GoogleOAuthCompat {
+    fun apply(settings: WebSettings) {
+        if (WebViewFeature.isFeatureSupported(WebViewFeature.REQUESTED_WITH_HEADER_ALLOW_LIST)) {
+            WebSettingsCompat.setRequestedWithHeaderOriginAllowList(settings, emptySet())
+        }
+    }
+}
+
+class KarsaWebViewCallbacks(
+    val onPageStarted: (String) -> Unit = {},
+    val onPageFinished: (String, String) -> Unit = { _, _ -> },
+    val onProgress: (Int) -> Unit = {},
+    val onPopupRequest: (String) -> Unit = {},
+    val onWalletDeepLink: (String, String?) -> Unit = { _, _ -> },
+    val onBlockedSocial: (String, String) -> Unit = { _, _ -> }
+)
+
+@SuppressLint("SetJavaScriptEnabled")
+@Suppress("DEPRECATION")
+fun createKarsaWebView(
+    context: Context,
+    guard: NavigationGuard,
+    settings: RenderSettings,
+    userScripts: List<com.karsa.browser.userscript.UserScript>,
+    scriptManager: UserScriptManager?,
+    desktopMode: Boolean = false,
+    callbacks: KarsaWebViewCallbacks = KarsaWebViewCallbacks()
+): WebView {
+    val webView = WebView(context)
+    webView.layoutParams = ViewGroup.LayoutParams(
+        ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT
+    )
+
+    val ws: WebSettings = webView.settings
+    ws.javaScriptEnabled = true
+    ws.domStorageEnabled = true
+    ws.databaseEnabled = true
+    ws.javaScriptCanOpenWindowsAutomatically = true
+    ws.setSupportMultipleWindows(true)
+    // Mode Mobile default; Desktop hanya bila toggle aktif (per tab).
+    KarsaUserAgentPolicy.applyToWebSettings(ws, desktopMode)
+    // Google OAuth: hapus X-Requested-With (lihat GoogleOAuthCompat di atas).
+    GoogleOAuthCompat.apply(ws)
+    ws.builtInZoomControls = true
+    ws.displayZoomControls = false
+    // Paksa Zoom v1: abaikan user-scalable=no di meta viewport (best-effort di WebView).
+    ws.setSupportZoom(settings.forceZoom)
+    ws.textZoom = settings.zoomPercent
+    ws.mediaPlaybackRequiresUserGesture = false
+    ws.mixedContentMode = WebSettings.MIXED_CONTENT_COMPATIBILITY_MODE
+    ws.cacheMode = WebSettings.LOAD_DEFAULT
+    ws.allowFileAccess = false
+    ws.allowContentAccess = true
+
+    // Cookie pihak ketiga: wajib agar login Google / X / Discord lancar.
+    CookieManager.getInstance().setAcceptCookie(true)
+    CookieManager.getInstance().setAcceptThirdPartyCookies(webView, true)
+
+    // Force Dark v1 (WebView): pakai FORCE_DARK_AUTO di Android 10+ bila aktif.
+    if (settings.forceDarkMode) {
+        ws.forceDark = WebSettings.FORCE_DARK_ON
+    }
+
+    webView.webViewClient = object : WebViewClient() {
+        override fun shouldOverrideUrlLoading(view: WebView, request: WebResourceRequest): Boolean {
+            val url = request.url.toString()
+            return when (val d = guard.intercept(url, isPopupRequest = false)) {
+                is NavigationDecision.AllowInCurrentTab -> false // biarkan WebView yang load
+                is NavigationDecision.OpenInFlexiblePopup -> {
+                    callbacks.onBlockedSocial(d.resolvedUrl, d.reason)
+                    true
+                }
+                is NavigationDecision.AskExternalWallet -> {
+                    callbacks.onWalletDeepLink(d.deepLinkUri, d.targetPackage)
+                    true
+                }
+                is NavigationDecision.BlockSilently -> true
+            }
+        }
+
+        override fun onPageStarted(view: WebView, url: String, favicon: Bitmap?) {
+            super.onPageStarted(view, url, favicon)
+            callbacks.onPageStarted(url)
+        }
+
+        override fun onPageFinished(view: WebView, url: String) {
+            super.onPageFinished(view, url)
+            callbacks.onPageFinished(url, view.title ?: "")
+            // Injeksi userscript aktif (document-end di v1; document-start
+            // penuh butuh WebViewAssetLoader / evaluateJavascript di onPageStarted
+            // untuk v2 — payload tetap sama, hanya timing yang disempurnakan).
+            val code = scriptManager?.combinedCodeFor(url, userScripts).orEmpty()
+            if (code.isNotEmpty()) view.evaluateJavascript(code, null)
+            // Desktop spoof ringan: HANYA saat Mode Desktop aktif — hapus jejak
+            // mobile di navigator. Di Mode Mobile (default) jangan disentuh,
+            // supaya Google/YouTube melihat Chrome Mobile asli.
+            if (desktopMode) {
+                view.evaluateJavascript(
+                    "(function(){try{Object.defineProperty(Navigator.prototype,'platform',{get:function(){return 'Win32'}});Object.defineProperty(Navigator.prototype,'maxTouchPoints',{get:function(){return 0}});}catch(e){}})();",
+                    null
+                )
+            }
+            // Ad-blocker v1 (ringan, berbasis CSS): sembunyikan slot iklan umum.
+            if (settings.adBlockEnabled) {
+                view.evaluateJavascript(
+                    "(function(){var s=document.createElement('style');s.textContent='[class*=ads],[id*=ads],iframe[src*=doubleclick]{display:none!important}';document.documentElement.appendChild(s);})();",
+                    null
+                )
+            }
+        }
+    }
+
+    webView.webChromeClient = object : WebChromeClient() {
+        override fun onProgressChanged(view: WebView, newProgress: Int) {
+            callbacks.onProgress(newProgress)
+        }
+
+        // window.open() / target=_blank -> Pop-up Fleksibel, bukan tab baru paksa.
+        override fun onCreateWindow(view: WebView, isDialog: Boolean, isUserGesture: Boolean, resultMsg: android.os.Message): Boolean {
+            val transport = resultMsg.obj as? WebView.WebViewTransport ?: return false
+            val popupView = WebView(view.context)
+            popupView.settings.javaScriptEnabled = true
+            popupView.settings.domStorageEnabled = true
+            popupView.settings.javaScriptCanOpenWindowsAutomatically = true
+            popupView.settings.setSupportMultipleWindows(true)
+            KarsaUserAgentPolicy.applyToWebSettings(popupView.settings, desktopMode)
+            // Pop-up OAuth (Google / X / Discord) juga wajib tanpa X-Requested-With.
+            GoogleOAuthCompat.apply(popupView.settings)
+            CookieManager.getInstance().setAcceptThirdPartyCookies(popupView, true)
+            transport.webView = popupView
+            resultMsg.sendToTarget()
+            // URL pop-up dibaca setelah load; host (BrowserScreen) menampilkan
+            // FlexiblePopup saat onCreateWindow terpanggil via callback ini.
+            callbacks.onPopupRequest(popupView.url ?: "about:blank")
+            return true
+        }
+    }
+    return webView
+}
