@@ -841,7 +841,7 @@ fun MenuSheet(
                         Button(onClick = { onClearCookies() }, modifier = Modifier.padding(top = 12.dp)) { Text("Hapus Semua Cookie") }
                     }
                     MenuSub.UPDATE -> Column(modifier = Modifier.weight(1f).padding(16.dp)) {
-                        Text("Karsa Browser v1.0.3 (com.karsa.browser)", style = MaterialTheme.typography.bodyMedium)
+                        Text("Karsa Browser v1.0.4 (com.karsa.browser)", style = MaterialTheme.typography.bodyMedium)
                         Text("Update otomatis: aplikasi memeriksa GitHub Releases saat dibuka. Ketuk di bawah untuk memeriksa sekarang.", style = MaterialTheme.typography.bodySmall, modifier = Modifier.padding(top = 8.dp))
                         Button(onClick = { onCheckUpdate() }, modifier = Modifier.padding(top = 12.dp)) { Text("Periksa Update") }
                         OutlinedButton(
