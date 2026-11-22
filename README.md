@@ -1,6 +1,6 @@
-# Karsa Browser v1.0.3 — MVP Android Native
+# Karsa Browser v1.0.4 — MVP Android Native
 
-**`com.karsa.browser` · Kotlin + Jetpack Compose · Min SDK 26 (Android 8.0+) · versionCode 4**
+**`com.karsa.browser` · Kotlin + Jetpack Compose · Min SDK 26 (Android 8.0+) · versionCode 5**
 
 Browser Android dari prototipe
 [`Febbio11/karsa-browser-prototype`](https://github.com/Febbio11/karsa-browser-prototype)
@@ -16,6 +16,10 @@ Plus Jakarta Sans + JetBrains Mono).
 > memeriksa `update.json` di rolling release `latest` saat dibuka & lewat
 > menu ⋮ → Cek Update; bila ada versi baru, dialog → DownloadManager →
 > installer sistem (FileProvider). Lihat bagian "Update otomatis" di bawah.
+>
+> **v1.0.4 (22 Nov 2026): bump versi saja (versionCode 5)** — tanpa perubahan
+> fitur; rilis pertama yang didistribusikan lewat pipeline update otomatis,
+> untuk membuktikan dialog update di 1.0.3 bekerja end-to-end.
 
 > **Engine v1: Android System WebView yang dimodifikasi maksimal — BUKAN kompilasi
 > Chromium dari nol.** Full Chromium fork (Cromite/Ungoogled + patch ekstensi)
