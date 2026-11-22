@@ -43,6 +43,8 @@ import androidx.compose.material.icons.rounded.Home
 import androidx.compose.material.icons.rounded.KeyboardArrowDown
 import androidx.compose.material.icons.rounded.Lock
 import androidx.compose.material.icons.rounded.MoreVert
+import androidx.compose.material3.AlertDialog
+import androidx.compose.material3.Button
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.LinearProgressIndicator
@@ -78,6 +80,7 @@ import androidx.compose.ui.viewinterop.AndroidView
 import androidx.core.view.WindowCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.WindowInsetsControllerCompat
+import com.karsa.browser.browser.AppUpdater
 import com.karsa.browser.browser.BrowserProfile
 import com.karsa.browser.browser.BrowserTab
 import com.karsa.browser.browser.BookmarkItem
@@ -106,6 +109,7 @@ import com.karsa.browser.ui.components.SearchEngineSheet
 import com.karsa.browser.ui.components.SiteInfoPopover
 import com.karsa.browser.ui.components.TabSwitcherSheet
 import com.karsa.browser.ui.components.WalletConfirmDialog
+import com.karsa.browser.ui.theme.KarsaSerif
 import com.karsa.browser.userscript.UserScript
 import com.karsa.browser.userscript.UserScriptManager
 import kotlinx.coroutines.delay
@@ -149,6 +153,14 @@ fun BrowserScreen(
     var userScripts by remember { mutableStateOf<List<UserScript>>(emptyList()) }
     // v1.0.2: tidak ada userscript contoh — daftar 100% kosong saat fresh.
     LaunchedEffect(Unit) { userScripts = scriptManager.list() }
+
+    // v1.0.3: cek update otomatis sekali saat aplikasi dibuka (diam-diam).
+    var updateInfo by remember { mutableStateOf<AppUpdater.UpdateInfo?>(null) }
+    LaunchedEffect(Unit) {
+        delay(1500)
+        val info = AppUpdater.checkForUpdate(context)
+        if (info != null) updateInfo = info
+    }
 
     // --- State tab & navigasi: v1.0.2 hanya 1 tab Home, tanpa seed dummy. ---
     val tabs = remember { mutableStateListOf(BrowserTab(title = "Beranda", url = BrowserTab.HOME_URL)) }
@@ -782,8 +794,13 @@ fun BrowserScreen(
                     tabs.add(t); activeTabId = t.id
                 },
                 onCheckUpdate = {
-                    val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/Febbio11/karsa-browser-android/releases"))
-                    context.startActivity(intent)
+                    // v1.0.3: cek update via update.json (bukan buka browser).
+                    menuOpen = false
+                    scope.launch {
+                        val info = AppUpdater.checkForUpdate(context)
+                        if (info != null) updateInfo = info
+                        else notice("Karsa sudah versi terbaru, atau update belum tersedia")
+                    }
                 }
             )
         }
@@ -824,6 +841,31 @@ fun BrowserScreen(
                     walletDialogOpen = false
                 },
                 onCancel = { walletDialogOpen = false }
+            )
+        }
+        // Dialog update otomatis (v1.0.3).
+        updateInfo?.let { info ->
+            AlertDialog(
+                onDismissRequest = { updateInfo = null },
+                title = { Text("Update tersedia — Karsa v${info.versionName}", fontFamily = KarsaSerif) },
+                text = {
+                    Text("Build ${info.versionCode} sudah tersedia di GitHub Releases. Unduh dan pasang sekarang? Aplikasi akan restart setelah update.")
+                },
+                confirmButton = {
+                    Button(onClick = {
+                        val started = AppUpdater.downloadAndInstall(context, info) {
+                            updateInfo = null
+                            notice("Mengunduh update Karsa v${info.versionName}...")
+                        }
+                        if (!started) {
+                            updateInfo = null
+                            notice("Izinkan \"Install unknown apps\" untuk Karsa, lalu ketuk Update lagi.")
+                        }
+                    }) { Text("Update Sekarang") }
+                },
+                dismissButton = {
+                    TextButton(onClick = { updateInfo = null }) { Text("Nanti") }
+                }
             )
         }
         SnackbarHost(hostState = snackbar, modifier = Modifier.align(Alignment.BottomCenter))
