@@ -3,6 +3,8 @@ package com.karsa.browser.ui.components
 import android.content.ClipData
 import android.content.ClipboardManager
 import android.content.Context
+import android.content.Intent
+import android.net.Uri
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -839,9 +841,16 @@ fun MenuSheet(
                         Button(onClick = { onClearCookies() }, modifier = Modifier.padding(top = 12.dp)) { Text("Hapus Semua Cookie") }
                     }
                     MenuSub.UPDATE -> Column(modifier = Modifier.weight(1f).padding(16.dp)) {
-                        Text("Karsa Browser v1.0.2 (com.karsa.browser)", style = MaterialTheme.typography.bodyMedium)
-                        Text("Cek rilis terbaru di GitHub Releases repo karsa-browser-android.", style = MaterialTheme.typography.bodySmall, modifier = Modifier.padding(top = 8.dp))
-                        Button(onClick = { onCheckUpdate(); onClose() }, modifier = Modifier.padding(top = 12.dp)) { Text("Buka GitHub Releases") }
+                        Text("Karsa Browser v1.0.3 (com.karsa.browser)", style = MaterialTheme.typography.bodyMedium)
+                        Text("Update otomatis: aplikasi memeriksa GitHub Releases saat dibuka. Ketuk di bawah untuk memeriksa sekarang.", style = MaterialTheme.typography.bodySmall, modifier = Modifier.padding(top = 8.dp))
+                        Button(onClick = { onCheckUpdate() }, modifier = Modifier.padding(top = 12.dp)) { Text("Periksa Update") }
+                        OutlinedButton(
+                            onClick = {
+                                val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/Febbio11/karsa-browser-android/releases"))
+                                context.startActivity(intent)
+                            },
+                            modifier = Modifier.padding(top = 8.dp)
+                        ) { Text("Buka GitHub Releases") }
                     }
                     else -> {}
                 }
