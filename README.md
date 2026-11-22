@@ -1,6 +1,6 @@
-# Karsa Browser v1.0.2 — MVP Android Native
+# Karsa Browser v1.0.3 — MVP Android Native
 
-**`com.karsa.browser` · Kotlin + Jetpack Compose · Min SDK 26 (Android 8.0+) · versionCode 3**
+**`com.karsa.browser` · Kotlin + Jetpack Compose · Min SDK 26 (Android 8.0+) · versionCode 4**
 
 Browser Android dari prototipe
 [`Febbio11/karsa-browser-prototype`](https://github.com/Febbio11/karsa-browser-prototype)
@@ -11,6 +11,11 @@ Plus Jakarta Sans + JetBrains Mono).
 > + Bottom Bar 5 menu, semua ikon vektor monokrom, Home orisinal Karsa sebagai
 > tampilan awal (state 100% fresh, tanpa data dummy), **Mode Mobile default**,
 > multi mesin pencari + autocomplete lokal.
+>
+> **v1.0.3 (22 Nov 2026): update otomatis di dalam aplikasi** — aplikasi
+> memeriksa `update.json` di rolling release `latest` saat dibuka & lewat
+> menu ⋮ → Cek Update; bila ada versi baru, dialog → DownloadManager →
+> installer sistem (FileProvider). Lihat bagian "Update otomatis" di bawah.
 
 > **Engine v1: Android System WebView yang dimodifikasi maksimal — BUKAN kompilasi
 > Chromium dari nol.** Full Chromium fork (Cromite/Ungoogled + patch ekstensi)
@@ -36,6 +41,48 @@ Plus Jakarta Sans + JetBrains Mono).
 | **WebView v1.0.2** | **Mode Mobile default** (UA Pixel 8 Chrome 131, hapus `; wv`), Mode Desktop = UA Chrome 131 Windows + wide viewport, `setSupportMultipleWindows(true)`, `javaScriptCanOpenWindowsAutomatically=true`, `domStorageEnabled=true`, `setAcceptThirdPartyCookies(webView, true)` |
 | **Google (22 Nov 2026)** | Mesin pencari default = **Google Search** (`https://www.google.com/search?q=...`) untuk kata kunci biasa di kolom search (`Models.kt: resolveNavigationInput`). Login dengan Google: selain UA bersih, header `X-Requested-With` dihapus via `WebSettingsCompat.setRequestedWithHeaderOriginAllowList(settings, emptySet())` di WebView utama + pop-up (`WebViewFactory.kt: GoogleOAuthCompat`, dijaga `WebViewFeature.isFeatureSupported`) agar tidak kena `403 disallowed_useragent` |
 | **Anti-Redirect Pintar** | Blokir total `twitter://`, `x://`, `discord://`, `tg://`, `intent://` → Pop-up Fleksibel (opsi Buka di Tab Baru / Tetap di Pop-up). **Whitelist khusus:** `wc:` (WalletConnect) & `rabby:` (Rabby Wallet Mobile) lewat pop-up konfirmasi → tanda tangan di aplikasi resmi → kembali tanpa reload |
+
+## Update otomatis (v1.0.3)
+
+**Cara kerja:** aplikasi mengambil `update.json` dari rolling release tag
+`latest` (`browser/AppUpdater.kt` — publik, tanpa auth). Bila `versionCode`
+di sana lebih besar dari yang terpasang, muncul dialog "Update tersedia" →
+DownloadManager mengunduh APK → installer sistem (izin "Install unknown
+apps" diminta sekali saja).
+
+**Syarat (sekali saja, edit via web GitHub — asisten tidak bisa push file
+workflow karena app GitHub tidak punya izin Workflows):**
+
+1. Buka `.github/workflows/build-apk.yml` di repo web → **Edit (ikon pensil)**.
+2. Ubah baris `permissions:` dari `contents: read` menjadi `contents: write`.
+3. Tempel blok di bawah ini **di akhir file**, setelah step `Upload APK (release)`:
+
+```yaml
+      # Update otomatis v1.0.3: publish APK + update.json ke rolling release
+      # tag `latest` — link permanen untuk AppUpdater:
+      # https://github.com/Febbio11/karsa-browser-android/releases/download/latest/update.json
+      - name: Publish rolling release (latest)
+        if: github.ref == 'refs/heads/main'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          APK=$(find app/build/outputs/apk -name "*.apk" | head -1)
+          cp "$APK" karsa-browser-debug.apk
+          VC=$(grep -oP 'versionCode = \K[0-9]+' app/build.gradle.kts)
+          VN=$(grep -oP 'versionName = "\K[^"]+' app/build.gradle.kts)
+          cat > update.json <<EOF
+          {"versionCode": $VC, "versionName": "$VN", "apkUrl": "https://github.com/Febbio11/karsa-browser-android/releases/download/latest/karsa-browser-debug.apk"}
+          EOF
+          gh release view latest >/dev/null 2>&1 || gh release create latest --title "Karsa Browser — Latest" --notes "Build otomatis dari main (debug APK)."
+          gh release upload latest karsa-browser-debug.apk update.json --clobber
+```
+
+4. **Commit changes** (langsung ke `main`). Build berikutnya otomatis
+   membuat release `latest` + `update.json`.
+5. **Catatan:** update otomatis mulai bekerja dari versi BERIKUTNYA (1.0.4) —
+   1.0.3 sendiri masih diunduh manual dari Artifacts, karena release
+   `latest` baru ada setelah workflow baru jalan. Link permanen APK terbaru:
+   `https://github.com/Febbio11/karsa-browser-android/releases/download/latest/karsa-browser-debug.apk`
 
 ## Struktur
 
