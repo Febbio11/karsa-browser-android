@@ -1,1 +1,53 @@
-cGFja2FnZSBjb20ua2Fyc2EuYnJvd3Nlci51aS5jb21wb25lbnRzCgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmJhY2tncm91bmQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5ib3JkZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQm94CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LnNpemUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5zaGFwZS5DaXJjbGVTaGFwZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLnNoYXBlLlJvdW5kZWRDb3JuZXJTaGFwZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuTWF0ZXJpYWxUaGVtZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuVGV4dAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkNvbXBvc2FibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuQWxpZ25tZW50CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLk1vZGlmaWVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLkNvbG9yCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnRleHQuZm9udC5Gb250V2VpZ2h0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuZHAKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5zcAppbXBvcnQgY29tLmthcnNhLmJyb3dzZXIuYnJvd3Nlci5TZWFyY2hFbmdpbmVDb25maWcKaW1wb3J0IGNvbS5rYXJzYS5icm93c2VyLmJyb3dzZXIuU2VhcmNoRW5naW5lSWQKCi8qKgogKiBCYWRnZSBtZXNpbiBwZW5jYXJpIChwb3J0aW5nIFNlYXJjaEVuZ2luZUJhZGdlLnRzeCkuCiAqIHNtID0gbGluZ2thcmFuIDIwLmRwLCB0ZWtzIDEwLnNwOyBtZCA9IGtvdGFrIDI4LmRwIHJvdW5kZWQsIHRla3MgMTEuc3AuCiAqIERpIEFuZHJvaWQgZGlnYW1iYXIgc2ViYWdhaSBrb21wb25lbiBrZWNpbCAoaHVydWYgKyB3YXJuYSBlbmdpbmUpLAogKiBidWthbiBTVkcg4oCUIGN1a3VwIHVudHVrIHBlbmdlbmFsIGVuZ2luZSBkaSBwaWxsIHBlbmNhcmlhbiAmIHNoZWV0LgogKi8KQENvbXBvc2FibGUKZnVuIFNlYXJjaEVuZ2luZUJhZGdlKGVuZ2luZTogU2VhcmNoRW5naW5lQ29uZmlnLCBtZDogQm9vbGVhbiA9IGZhbHNlKSB7CiAgICB2YWwgKGJnLCBmZywgbGFiZWwpID0gd2hlbiAoZW5naW5lLmlkKSB7CiAgICAgICAgU2VhcmNoRW5naW5lSWQuR09PR0xFIC0+IFRyaXBsZShDb2xvci5XaGl0ZSwgQ29sb3IoMHhGRjQyODVGNCksICJHIikKICAgICAgICBTZWFyY2hFbmdpbmVJZC5CUkFWRSAtPiBUcmlwbGUoQ29sb3IoMHhGRkZCNTQyQikuY29weShhbHBoYSA9IDAuMTRmKSwgQ29sb3IoMHhGRkQ5NDMxRiksICJCciIpCiAgICAgICAgU2VhcmNoRW5naW5lSWQuRFVDS0RVQ0tHTyAtPiBUcmlwbGUoQ29sb3IoMHhGRkRFNTgzMykuY29weShhbHBoYSA9IDAuMTRmKSwgQ29sb3IoMHhGRkM2NDcyNCksICJEREciKQogICAgICAgIFNlYXJjaEVuZ2luZUlkLkJJTkcgLT4gVHJpcGxlKENvbG9yKDB4RkYwMDgzNzMpLmNvcHkoYWxwaGEgPSAwLjE0ZiksIENvbG9yKDB4RkYwMDczNjYpLCAiQiIpCiAgICAgICAgU2VhcmNoRW5naW5lSWQuWUFOREVYIC0+IFRyaXBsZShDb2xvcigweEZGRDkzODI5KS5jb3B5KGFscGhhID0gMC4xNGYpLCBDb2xvcigweEZGQzIyQjFFKSwgIlkiKQogICAgICAgIFNlYXJjaEVuZ2luZUlkLkNVU1RPTSAtPiBUcmlwbGUoTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5zdXJmYWNlVmFyaWFudCwgQ29sb3IoMHhGRjhFM0MyMSksICJVUkwiKQogICAgfQogICAgdmFsIHNpemUgPSBpZiAobWQpIDI4LmRwIGVsc2UgMjAuZHAKICAgIHZhbCBzaGFwZSA9IGlmIChtZCkgUm91bmRlZENvcm5lclNoYXBlKDguZHApIGVsc2UgQ2lyY2xlU2hhcGUKICAgIEJveCgKICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyCiAgICAgICAgICAgIC5zaXplKHNpemUpCiAgICAgICAgICAgIC5iYWNrZ3JvdW5kKGJnLCBzaGFwZSkKICAgICAgICAgICAgLmJvcmRlcigwLjUuZHAsIE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUub3V0bGluZS5jb3B5KGFscGhhID0gMC40ZiksIHNoYXBlKSwKICAgICAgICBjb250ZW50QWxpZ25tZW50ID0gQWxpZ25tZW50LkNlbnRlcgogICAgKSB7CiAgICAgICAgVGV4dCgKICAgICAgICAgICAgdGV4dCA9IGxhYmVsLAogICAgICAgICAgICBmb250U2l6ZSA9IGlmIChtZCkgMTEuc3AgZWxzZSBpZiAobGFiZWwubGVuZ3RoID4gMSkgOC5zcCBlbHNlIDEwLnNwLAogICAgICAgICAgICBmb250V2VpZ2h0ID0gRm9udFdlaWdodC5Cb2xkLAogICAgICAgICAgICBjb2xvciA9IGZnCiAgICAgICAgKQogICAgfQp9Cg==
+package com.karsa.browser.ui.components
+
+import androidx.compose.foundation.background
+import androidx.compose.foundation.border
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import com.karsa.browser.browser.SearchEngineConfig
+import com.karsa.browser.browser.SearchEngineId
+
+/**
+ * Badge mesin pencari (porting SearchEngineBadge.tsx).
+ * sm = lingkaran 20.dp, teks 10.sp; md = kotak 28.dp rounded, teks 11.sp.
+ * Di Android digambar sebagai komponen kecil (huruf + warna engine),
+ * bukan SVG — cukup untuk pengenal engine di pill pencarian & sheet.
+ */
+@Composable
+fun SearchEngineBadge(engine: SearchEngineConfig, md: Boolean = false) {
+    val (bg, fg, label) = when (engine.id) {
+        SearchEngineId.GOOGLE -> Triple(Color.White, Color(0xFF4285F4), "G")
+        SearchEngineId.BRAVE -> Triple(Color(0xFFFB542B).copy(alpha = 0.14f), Color(0xFFD9431F), "Br")
+        SearchEngineId.DUCKDUCKGO -> Triple(Color(0xFFDE5833).copy(alpha = 0.14f), Color(0xFFC64724), "DDG")
+        SearchEngineId.BING -> Triple(Color(0xFF008373).copy(alpha = 0.14f), Color(0xFF007366), "B")
+        SearchEngineId.YANDEX -> Triple(Color(0xFFD93829).copy(alpha = 0.14f), Color(0xFFC22B1E), "Y")
+        SearchEngineId.CUSTOM -> Triple(MaterialTheme.colorScheme.surfaceVariant, Color(0xFF8E3C21), "URL")
+    }
+    val size = if (md) 28.dp else 20.dp
+    val shape = if (md) RoundedCornerShape(8.dp) else CircleShape
+    Box(
+        modifier = Modifier
+            .size(size)
+            .background(bg, shape)
+            .border(0.5.dp, MaterialTheme.colorScheme.outline.copy(alpha = 0.4f), shape),
+        contentAlignment = Alignment.Center
+    ) {
+        Text(
+            text = label,
+            fontSize = if (md) 11.sp else if (label.length > 1) 8.sp else 10.sp,
+            fontWeight = FontWeight.Bold,
+            color = fg
+        )
+    }
+}
