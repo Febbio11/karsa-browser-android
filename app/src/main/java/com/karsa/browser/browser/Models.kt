@@ -1,1 +1,254 @@
-cGFja2FnZSBjb20ua2Fyc2EuYnJvd3Nlci5icm93c2VyCgppbXBvcnQgamF2YS51dGlsLlVVSUQKCi8vIC0tLS0tLS0tLS0gTWVzaW4gcGVuY2FyaSAocG9ydGluZyBwcm90b3RpcGUgY29tbWl0IDM2Y2Q3NTIpIC0tLS0tLS0tLS0KCmVudW0gY2xhc3MgU2VhcmNoRW5naW5lSWQodmFsIGlkOiBTdHJpbmcpIHsKICAgIEdPT0dMRSgiZ29vZ2xlIiksCiAgICBCUkFWRSgiYnJhdmUiKSwKICAgIERVQ0tEVUNLR08oImR1Y2tkdWNrZ28iKSwKICAgIEJJTkcoImJpbmciKSwKICAgIFlBTkRFWCgieWFuZGV4IiksCiAgICBDVVNUT00oImN1c3RvbSIpOwoKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIGZ1biBmcm9tSWQoaWQ6IFN0cmluZyk6IFNlYXJjaEVuZ2luZUlkID0KICAgICAgICAgICAgZW50cmllcy5maXJzdE9yTnVsbCB7IGl0LmlkID09IGlkIH0gPzogR09PR0xFCiAgICB9Cn0KCmRhdGEgY2xhc3MgU2VhcmNoRW5naW5lQ29uZmlnKAogICAgdmFsIGlkOiBTZWFyY2hFbmdpbmVJZCwKICAgIHZhbCBuYW1lOiBTdHJpbmcsCiAgICB2YWwgc2hvcnRMYWJlbDogU3RyaW5nLAogICAgdmFsIHVybFRlbXBsYXRlOiBTdHJpbmcsCiAgICB2YWwgZGVzY3JpcHRpb246IFN0cmluZywKICAgIHZhbCBkb21haW46IFN0cmluZwopCgp2YWwgREVGQVVMVF9TRUFSQ0hfRU5HSU5FUzogTGlzdDxTZWFyY2hFbmdpbmVDb25maWc+ID0gbGlzdE9mKAogICAgU2VhcmNoRW5naW5lQ29uZmlnKFNlYXJjaEVuZ2luZUlkLkdPT0dMRSwgIkdvb2dsZSIsICJHIiwgImh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vc2VhcmNoP3E9JXMiLCAiUGVuY2FyaWFuIGNlcGF0IGRhbiBoYXNpbCBwYWxpbmcgbHVhcyAoRGVmYXVsdCkiLCAiZ29vZ2xlLmNvbSIpLAogICAgU2VhcmNoRW5naW5lQ29uZmlnKFNlYXJjaEVuZ2luZUlkLkJSQVZFLCAiQnJhdmUgU2VhcmNoIiwgIkJyIiwgImh0dHBzOi8vc2VhcmNoLmJyYXZlLmNvbS9zZWFyY2g/cT0lcyIsICJJbmRla3MgaW5kZXBlbmRlbiwgcHJpdmF0LCB0YW5wYSBwZWxhY2FrYW4gaWtsYW4iLCAic2VhcmNoLmJyYXZlLmNvbSIpLAogICAgU2VhcmNoRW5naW5lQ29uZmlnKFNlYXJjaEVuZ2luZUlkLkRVQ0tEVUNLR08sICJEdWNrRHVja0dvIiwgIkRERyIsICJodHRwczovL2R1Y2tkdWNrZ28uY29tLz9xPSVzIiwgIkZva3VzIHByaXZhc2kgdGFucGEgcml3YXlhdCBwZW5jYXJpYW4gdGVycGVyc29uYWxpc2FzaSIsICJkdWNrZHVja2dvLmNvbSIpLAogICAgU2VhcmNoRW5naW5lQ29uZmlnKFNlYXJjaEVuZ2luZUlkLkJJTkcsICJCaW5nIiwgIkIiLCAiaHR0cHM6Ly93d3cuYmluZy5jb20vc2VhcmNoP3E9JXMiLCAiUGVuY2FyaWFuIHZpc3VhbCBkYW4gamF3YWJhbiB0ZXJzdHJ1a3R1ciBNaWNyb3NvZnQiLCAiYmluZy5jb20iKSwKICAgIFNlYXJjaEVuZ2luZUNvbmZpZyhTZWFyY2hFbmdpbmVJZC5ZQU5ERVgsICJZYW5kZXgiLCAiWWEiLCAiaHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC8/dGV4dD0lcyIsICJLdWF0IHVudHVrIHBlbmNhcmlhbiBsaW50YXMgd2lsYXlhaCAmIGdhbWJhciIsICJ5YW5kZXguY29tIiksCiAgICBTZWFyY2hFbmdpbmVDb25maWcoU2VhcmNoRW5naW5lSWQuQ1VTVE9NLCAiS3VzdG9tIChDdXN0b20gVVJMKSIsICJVUkwiLCAiaHR0cHM6Ly9leGFtcGxlLmNvbS8/cT0lcyIsICJHdW5ha2FuIHRlbXBsYXRlIFVSTCBtZXNpbiBwZW5jYXJpIEFuZGEgc2VuZGlyaSAoJXMpIiwgImN1c3RvbSIpCikKCi8qKiBFbmdpbmUgYWt0aWYgZGFyaSBzZXR0aW5ncyAoS3VzdG9tIG1lbWFrYWkgbmFtYS90ZW1wbGF0ZSB5YW5nIGRpc2ltcGFuIHBlbmdndW5hKS4gKi8KZnVuIGFjdGl2ZVNlYXJjaEVuZ2luZShzZXR0aW5nczogUmVuZGVyU2V0dGluZ3MpOiBTZWFyY2hFbmdpbmVDb25maWcgewogICAgdmFsIGlkID0gU2VhcmNoRW5naW5lSWQuZnJvbUlkKHNldHRpbmdzLnNlYXJjaEVuZ2luZUlkKQogICAgdmFsIGJhc2UgPSBERUZBVUxUX1NFQVJDSF9FTkdJTkVTLmZpcnN0IHsgaXQuaWQgPT0gaWQgfQogICAgaWYgKGlkICE9IFNlYXJjaEVuZ2luZUlkLkNVU1RPTSkgcmV0dXJuIGJhc2UKICAgIHZhbCBuYW1lID0gc2V0dGluZ3MuY3VzdG9tU2VhcmNoTmFtZS50cmltKCkuaWZFbXB0eSB7IGJhc2UubmFtZSB9CiAgICB2YWwgdGVtcGxhdGUgPSBzZXR0aW5ncy5jdXN0b21TZWFyY2hUZW1wbGF0ZS50cmltKCkuaWZFbXB0eSB7IGJhc2UudXJsVGVtcGxhdGUgfQogICAgdmFsIGRvbWFpbiA9IHJ1bkNhdGNoaW5nIHsgamF2YS5uZXQuVVJMKHRlbXBsYXRlKS5ob3N0LnJlbW92ZVByZWZpeCgid3d3LiIpIH0uZ2V0T3JFbHNlIHsgImN1c3RvbSIgfQogICAgcmV0dXJuIGJhc2UuY29weShuYW1lID0gbmFtZSwgdXJsVGVtcGxhdGUgPSB0ZW1wbGF0ZSwgZG9tYWluID0gZG9tYWluKQp9CgovKiogQXR1cmFuIGJhbmd1biBVUkwgcGVyc2lzIHByb3RvdGlwZTogJXMgZGlnYW50aSBzZW11YTsgdGFucGEgJXMgcGFrYWkgP3E9IC8gJi4gKi8KZnVuIGJ1aWxkU2VhcmNoVXJsKGVuZ2luZTogU2VhcmNoRW5naW5lQ29uZmlnLCBxdWVyeTogU3RyaW5nKTogU3RyaW5nIHsKICAgIHZhbCBlbmNvZGVkID0gamF2YS5uZXQuVVJMRW5jb2Rlci5lbmNvZGUocXVlcnkudHJpbSgpLCAiVVRGLTgiKQogICAgdmFsIHRwbCA9IGVuZ2luZS51cmxUZW1wbGF0ZS50cmltKCkuaWZFbXB0eSB7ICJodHRwczovL3d3dy5nb29nbGUuY29tL3NlYXJjaD9xPSVzIiB9CiAgICBpZiAodHBsLmNvbnRhaW5zKCIlcyIpKSByZXR1cm4gdHBsLnJlcGxhY2UoIiVzIiwgZW5jb2RlZCkKICAgIHZhbCBzZXBhcmF0b3IgPSBpZiAodHBsLmNvbnRhaW5zKCI/IikpIHsKICAgICAgICBpZiAodHBsLmVuZHNXaXRoKCI/IikgfHwgdHBsLmVuZHNXaXRoKCImIikpICIiIGVsc2UgIiYiCiAgICB9IGVsc2UgIj9xPSIKICAgIHJldHVybiAiJHRwbCRzZXBhcmF0b3IkZW5jb2RlZCIKfQoKLy8gLS0tLS0tLS0tLSBUYWIgJiBoYWxhbWFuIEhvbWUgLS0tLS0tLS0tLQoKZGF0YSBjbGFzcyBCcm93c2VyVGFiKAogICAgdmFsIGlkOiBTdHJpbmcgPSBVVUlELnJhbmRvbVVVSUQoKS50b1N0cmluZygpLAogICAgdmFsIHRpdGxlOiBTdHJpbmcgPSAiQmVyYW5kYSIsCiAgICB2YWwgdXJsOiBTdHJpbmcgPSBIT01FX1VSTCwKICAgIHZhbCBpbmNvZ25pdG86IEJvb2xlYW4gPSBmYWxzZSwKICAgIHZhbCBkZXNrdG9wTW9kZTogQm9vbGVhbiA9IGZhbHNlCikgewogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgLyoqIEhhbGFtYW4gYXdhbCB2MjogSG9tZSBvcmlzaW5hbCBLYXJzYSAoYnVrYW4gbGFnaSBhcmVuYSBnYW1lKS4gKi8KICAgICAgICBjb25zdCB2YWwgSE9NRV9VUkwgPSAia2Fyc2E6Ly9ob21lIgogICAgfQogICAgdmFsIGhvc3Q6IFN0cmluZyBnZXQoKSA9IGlmICh1cmwgPT0gSE9NRV9VUkwpICJLYXJzYSBIb21lIiBlbHNlIHJ1bkNhdGNoaW5nIHsKICAgICAgICBqYXZhLm5ldC5VUkwodXJsKS5ob3N0ID86IHVybAogICAgfS5nZXRPckVsc2UgeyB1cmwgfQogICAgdmFsIGlzU2VjdXJlOiBCb29sZWFuIGdldCgpID0gdXJsLnN0YXJ0c1dpdGgoImh0dHBzOi8vIikgfHwgdXJsLnN0YXJ0c1dpdGgoImthcnNhOi8vIikKICAgIHZhbCBpc0hvbWU6IEJvb2xlYW4gZ2V0KCkgPSB1cmwgPT0gSE9NRV9VUkwKICAgIHZhbCBmYXZpY29uTGFiZWw6IFN0cmluZyBnZXQoKSA9IGlmIChpc0hvbWUpICJLIiBlbHNlIGhvc3QuZmlyc3RPck51bGwoKT8udXBwZXJjYXNlKCkgPzogIlciCn0KCmRhdGEgY2xhc3MgSG9tZVNob3J0Y3V0KAogICAgdmFsIGlkOiBTdHJpbmcgPSBVVUlELnJhbmRvbVVVSUQoKS50b1N0cmluZygpLAogICAgdmFsIGxhYmVsOiBTdHJpbmcsCiAgICB2YWwgdXJsOiBTdHJpbmcsCiAgICB2YWwgYmFkZ2U6IFN0cmluZwopCgp2YWwgREVGQVVMVF9TSE9SVENVVFM6IExpc3Q8SG9tZVNob3J0Y3V0PiA9IGxpc3RPZigKICAgIEhvbWVTaG9ydGN1dChpZCA9ICJzYy1nb29nbGUiLCBsYWJlbCA9ICJHb29nbGUiLCB1cmwgPSAiaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbSIsIGJhZGdlID0gIkciKSwKICAgIEhvbWVTaG9ydGN1dChpZCA9ICJzYy14IiwgbGFiZWwgPSAiWCIsIHVybCA9ICJodHRwczovL3guY29tIiwgYmFkZ2UgPSAiWCIpLAogICAgSG9tZVNob3J0Y3V0KGlkID0gInNjLXlvdXR1YmUiLCBsYWJlbCA9ICJZb3VUdWJlIiwgdXJsID0gImh0dHBzOi8vbS55b3V0dWJlLmNvbSIsIGJhZGdlID0gIllUIikKKQoKLyoqIEJhZGdlIHBpbnRhc2FuOiAyIGh1cnVmIGFsZmFudW1lcmlrIHBlcnRhbWEgbGFiZWwsIGh1cnVmIGJlc2FyOyBrb3NvbmcgLT4gIldCIi4gKi8KZnVuIHNob3J0Y3V0QmFkZ2VGb3IobGFiZWw6IFN0cmluZyk6IFN0cmluZyB7CiAgICB2YWwgbGV0dGVycyA9IGxhYmVsLmZpbHRlciB7IGl0LmlzTGV0dGVyT3JEaWdpdCgpIH0udGFrZSgyKS51cHBlcmNhc2UoKQogICAgcmV0dXJuIGxldHRlcnMuaWZFbXB0eSB7ICJXQiIgfQp9CgpmdW4gc2hvcnRjdXRMYWJlbEZvcih1cmw6IFN0cmluZyk6IFN0cmluZyA9IHJ1bkNhdGNoaW5nIHsKICAgIHZhbCBob3N0ID0gamF2YS5uZXQuVVJMKHVybCkuaG9zdC5yZW1vdmVQcmVmaXgoInd3dy4iKS5zcGxpdCgiLiIpLmZpcnN0T3JOdWxsKCkub3JFbXB0eSgpCiAgICBob3N0LnJlcGxhY2VGaXJzdENoYXIgeyBpdC51cHBlcmNhc2UoKSB9LmlmRW1wdHkgeyAiUGludGFzYW4iIH0KfS5nZXRPckVsc2UgeyAiUGludGFzYW4iIH0KCmVudW0gY2xhc3MgUGVybWlzc2lvblZhbHVlIHsgQUxMT1csIEFTSywgQkxPQ0sgfQoKZGF0YSBjbGFzcyBTaXRlUGVybWlzc2lvbnMoCiAgICB2YWwgY2xpcGJvYXJkOiBQZXJtaXNzaW9uVmFsdWUgPSBQZXJtaXNzaW9uVmFsdWUuQUxMT1csCiAgICB2YWwgbm90aWZpY2F0aW9uczogUGVybWlzc2lvblZhbHVlID0gUGVybWlzc2lvblZhbHVlLkFTSywKICAgIHZhbCBjYW1lcmE6IFBlcm1pc3Npb25WYWx1ZSA9IFBlcm1pc3Npb25WYWx1ZS5CTE9DSywKICAgIHZhbCBtaWNyb3Bob25lOiBQZXJtaXNzaW9uVmFsdWUgPSBQZXJtaXNzaW9uVmFsdWUuQkxPQ0ssCiAgICB2YWwgbG9jYXRpb246IFBlcm1pc3Npb25WYWx1ZSA9IFBlcm1pc3Npb25WYWx1ZS5CTE9DSywKICAgIHZhbCBwb3B1cHM6IFBlcm1pc3Npb25WYWx1ZSA9IFBlcm1pc3Npb25WYWx1ZS5BTExPVywKICAgIHZhbCBhdXRvcGxheTogUGVybWlzc2lvblZhbHVlID0gUGVybWlzc2lvblZhbHVlLkFMTE9XCikKCi8qKiBQcm9maWwgYXdhbCB2MjogaGFueWEgMSDigJQgIlByb2ZpbCBVdGFtYSIgKFAxKSwgdGFucGEgd2FsbGV0L3NlZWQuICovCmRhdGEgY2xhc3MgQnJvd3NlclByb2ZpbGUoCiAgICB2YWwgaWQ6IFN0cmluZyA9ICJwcm9mLW1haW4iLAogICAgdmFsIG5hbWU6IFN0cmluZyA9ICJQcm9maWwgVXRhbWEiLAogICAgdmFsIGJhZGdlOiBTdHJpbmcgPSAiUDEiLAogICAgdmFsIHdhbGxldExhYmVsOiBTdHJpbmc/ID0gbnVsbCwKICAgIHZhbCBwcm94eVN1bW1hcnk6IFN0cmluZyA9ICJESVJFQ1QiCikKCmRhdGEgY2xhc3MgQm9va21hcmtJdGVtKHZhbCBpZDogU3RyaW5nID0gVVVJRC5yYW5kb21VVUlEKCkudG9TdHJpbmcoKSwgdmFsIHRpdGxlOiBTdHJpbmcsIHZhbCB1cmw6IFN0cmluZywgdmFsIGZvbGRlcjogU3RyaW5nID0gIlRlcnNpbXBhbiIpCmRhdGEgY2xhc3MgSGlzdG9yeUl0ZW0odmFsIGlkOiBTdHJpbmcgPSBVVUlELnJhbmRvbVVVSUQoKS50b1N0cmluZygpLCB2YWwgdGl0bGU6IFN0cmluZywgdmFsIHVybDogU3RyaW5nLCB2YWwgdmlzaXRlZEF0OiBTdHJpbmcpCmRhdGEgY2xhc3MgRG93bmxvYWRJdGVtKHZhbCBpZDogU3RyaW5nID0gVVVJRC5yYW5kb21VVUlEKCkudG9TdHJpbmcoKSwgdmFsIGZpbGVuYW1lOiBTdHJpbmcsIHZhbCBzaXplOiBTdHJpbmcsIHZhbCBzdGF0dXM6IFN0cmluZyA9ICJTZWxlc2FpIikKCmVudW0gY2xhc3MgT3JpZW50YXRpb25Mb2NrIHsgQVVUTywgUE9SVFJBSVQsIExBTkRTQ0FQRSB9CgpkYXRhIGNsYXNzIFJlbmRlclNldHRpbmdzKAogICAgdmFsIHpvb21QZXJjZW50OiBJbnQgPSAxMDAsICAgICAgICAgIC8vIDUwLi4yMDAKICAgIHZhbCBmb3JjZVpvb206IEJvb2xlYW4gPSB0cnVlLAogICAgdmFsIGZvcmNlRGFya01vZGU6IEJvb2xlYW4gPSBmYWxzZSwKICAgIHZhbCBhZEJsb2NrRW5hYmxlZDogQm9vbGVhbiA9IHRydWUsCiAgICB2YWwgYW50aVJlZGlyZWN0RW5hYmxlZDogQm9vbGVhbiA9IHRydWUsCiAgICB2YWwgd2FsbGV0V2hpdGVsaXN0RW5hYmxlZDogQm9vbGVhbiA9IHRydWUsCiAgICB2YWwgZGlzYWJsZVB1bGxUb1JlZnJlc2hQZXJTaXRlOiBCb29sZWFuID0gdHJ1ZSwKICAgIHZhbCB0cmFuc2xhdGVFbmFibGVkOiBCb29sZWFuID0gZmFsc2UsCiAgICB2YWwgdHJhbnNsYXRlVGFyZ2V0OiBTdHJpbmcgPSAiaWQiLCAgLy8gZGVmYXVsdCBBdXRvLURldGVrc2kgLT4gQmFoYXNhIEluZG9uZXNpYQogICAgdmFsIHNlYXJjaEVuZ2luZUlkOiBTdHJpbmcgPSAiZ29vZ2xlIiwKICAgIHZhbCBjdXN0b21TZWFyY2hOYW1lOiBTdHJpbmcgPSAiIiwKICAgIHZhbCBjdXN0b21TZWFyY2hUZW1wbGF0ZTogU3RyaW5nID0gIiIsCiAgICB2YWwgc2VhcmNoU3VnZ2VzdGlvbnNFbmFibGVkOiBCb29sZWFuID0gdHJ1ZQopCgovKioKICogQXR1cmFuIG5hdmlnYXNpIGtvbG9tIHNlYXJjaCB2MjoKICogLSAia2Fyc2E6Ly9ob21lIiAtPiBIb21lLgogKiAtIFVSTCBsZW5na2FwIC8gZG9tYWluIChhZGEgIi4iIHRhbnBhIHNwYXNpKSAtPiBidWthIGxhbmdzdW5nIHNlYmFnYWkgVVJMLgogKiAtIEthdGEga3VuY2kgYmlhc2EgLT4gY2FyaSB2aWEgbWVzaW4gcGVuY2FyaSBha3RpZiAoZGVmYXVsdCBHb29nbGUpLgogKi8KZnVuIHJlc29sdmVOYXZpZ2F0aW9uSW5wdXQocmF3OiBTdHJpbmcsIGVuZ2luZTogU2VhcmNoRW5naW5lQ29uZmlnKTogU3RyaW5nIHsKICAgIHZhbCB0ID0gcmF3LnRyaW0oKQogICAgaWYgKHQuaXNFbXB0eSgpKSByZXR1cm4gIiIKICAgIGlmICh0LnN0YXJ0c1dpdGgoImh0dHA6Ly8iKSB8fCB0LnN0YXJ0c1dpdGgoImh0dHBzOi8vIikgfHwgdC5zdGFydHNXaXRoKCJrYXJzYTovLyIpKSByZXR1cm4gdAogICAgaWYgKHQuY29udGFpbnMoIi4iKSAmJiAhdC5jb250YWlucygiICIpKSByZXR1cm4gImh0dHBzOi8vJHQiCiAgICByZXR1cm4gYnVpbGRTZWFyY2hVcmwoZW5naW5lLCB0KQp9CgpmdW4gaXNVcmxMaWtlKHJhdzogU3RyaW5nKTogQm9vbGVhbiB7CiAgICB2YWwgdCA9IHJhdy50cmltKCkKICAgIHJldHVybiB0LnN0YXJ0c1dpdGgoImh0dHA6Ly8iKSB8fCB0LnN0YXJ0c1dpdGgoImh0dHBzOi8vIikgfHwgdC5zdGFydHNXaXRoKCJrYXJzYTovLyIpIHx8CiAgICAgICAgKHQuY29udGFpbnMoIi4iKSAmJiAhdC5jb250YWlucygiICIpKQp9CgpmdW4gdGl0bGVGcm9tVXJsKHVybDogU3RyaW5nKTogU3RyaW5nIHsKICAgIGlmICh1cmwgPT0gQnJvd3NlclRhYi5IT01FX1VSTCkgcmV0dXJuICJCZXJhbmRhIgogICAgcmV0dXJuIHJ1bkNhdGNoaW5nIHsKICAgICAgICBqYXZhLm5ldC5VUkwodXJsKS5ob3N0LnJlbW92ZVByZWZpeCgid3d3LiIpCiAgICB9LmdldE9yRWxzZSB7IHVybCB9Cn0KCi8vIC0tLS0tLS0tLS0gU2FyYW4gUGVuY2FyaWFuIChBdXRvY29tcGxldGUpIOKAlCAxMDAlIGxva2FsLCB0YW5wYSBBUEkgLS0tLS0tLS0tLQoKZGF0YSBjbGFzcyBLbm93bkRvbWFpbih2YWwgZG9tYWluOiBTdHJpbmcsIHZhbCBsYWJlbDogU3RyaW5nLCB2YWwga2V5d29yZHM6IExpc3Q8U3RyaW5nPikKCnZhbCBLTk9XTl9ET01BSU5TOiBMaXN0PEtub3duRG9tYWluPiA9IGxpc3RPZigKICAgIEtub3duRG9tYWluKCJnb29nbGUuY29tIiwgIkdvb2dsZSIsIGxpc3RPZigiZ29vZ2xlIiwgImdvbyIsICJzZWFyY2giKSksCiAgICBLbm93bkRvbWFpbigieC5jb20iLCAiWCAoVHdpdHRlcikiLCBsaXN0T2YoInguY29tIiwgInR3aXR0ZXIiLCAidHdpIiwgIngiKSksCiAgICBLbm93bkRvbWFpbigieW91dHViZS5jb20iLCAiWW91VHViZSIsIGxpc3RPZigieW91dHViZSIsICJ5b3UiLCAieXQiLCAidmlkZW8iKSksCiAgICBLbm93bkRvbWFpbigiZ2l0aHViLmNvbSIsICJHaXRIdWIiLCBsaXN0T2YoImdpdGh1YiIsICJnaXQiLCAicmVwbyIsICJjb2RlIikpLAogICAgS25vd25Eb21haW4oInJhYmJ5LmlvIiwgIlJhYmJ5IFdhbGxldCIsIGxpc3RPZigicmFiYnkiLCAid2FsbGV0IiwgIndlYjMiKSksCiAgICBLbm93bkRvbWFpbigiY29pbmdlY2tvLmNvbSIsICJDb2luR2Vja28iLCBsaXN0T2YoImNvaW4iLCAiY29pbmdlY2tvIiwgImNyeXB0byIsICJoYXJnYSIpKSwKICAgIEtub3duRG9tYWluKCJkZWZpbGxhbWEuY29tIiwgIkRlZmlMbGFtYSIsIGxpc3RPZigiZGVmaSIsICJsbGFtYSIsICJ0dmwiLCAiY3J5cHRvIikpLAogICAgS25vd25Eb21haW4oInBsYXkuYWV0aGVyZnJvbnRpZXIuZ2ciLCAiQWV0aGVyIEZyb250aWVyIOKAlCBXZWIzIEFyZW5hIiwgbGlzdE9mKCJhZXRoZXIiLCAiZ2FtZSIsICJwbGF5IiwgIndlYjMiLCAiYXJlbmEiKSksCiAgICBLbm93bkRvbWFpbigiZGlzY29yZC5jb20iLCAiRGlzY29yZCIsIGxpc3RPZigiZGlzY29yZCIsICJkaXNjIiwgImNoYXQiKSksCiAgICBLbm93bkRvbWFpbigid2lraXBlZGlhLm9yZyIsICJXaWtpcGVkaWEiLCBsaXN0T2YoIndpa2kiLCAid2lraXBlZGlhIikpCikKCnZhbCBUT1BJQ19TVUdHRVNUSU9OUzogTGlzdDxQYWlyPExpc3Q8U3RyaW5nPiwgTGlzdDxTdHJpbmc+Pj4gPSBsaXN0T2YoCiAgICBsaXN0T2YoIndlYjMiLCAid2FsbGV0IiwgInJhYmJ5IiwgIm1ldGFtYXNrIiwgImNyeXB0byIsICJldGgiLCAiYnRjIiwgInNvbCIsICJkZWZpIikgdG8gbGlzdE9mKAogICAgICAgICJ3YWxsZXRjb25uZWN0IG1vYmlsZSBhbmRyb2lkIiwgInJhYmJ5IHdhbGxldCBleHRlbnNpb24gY2hyb21lIiwgImhhcmdhIGV0aGVyZXVtIGhhcmkgaW5pIiwKICAgICAgICAiYWlyZHJvcCB3ZWIzIHRlcmJhcnUgMjAyNiIsICJnYXMgZmVlIGFyYml0cnVtIHRyYWNrZXIiCiAgICApLAogICAgbGlzdE9mKCJnYW1lIiwgImFldGhlciIsICJmcHMiLCAid2ViZ2wiLCAicGxheSIsICJzdGVhbSIpIHRvIGxpc3RPZigKICAgICAgICAiZ2FtZSB3ZWIzIGJyb3dzZXIgcmluZ2FuIGFuZHJvaWQiLCAid2ViZ2wgNjBmcHMgb3B0aW1pemF0aW9uIG1vYmlsZSIsCiAgICAgICAgImFldGhlciBmcm9udGllciBndWlkZSBwZW11bGEiLCAic2V0dGluZyBkcGkgYnJvd3NlciBnYW1pbmcgYW5kcm9pZCIKICAgICksCiAgICBsaXN0T2YoImthcnNhIiwgImJyb3dzZXIiLCAiYW5kcm9pZCIsICJjaHJvbWUiLCAiYnJhdmUiLCAiZHVjayIpIHRvIGxpc3RPZigKICAgICAgICAia2Fyc2EgYnJvd3NlciBhbmRyb2lkIGFwayIsICJjYXJhIHBhc2FuZyBla3N0ZW5zaSBjaHJvbWUgZGkgYW5kcm9pZCIsCiAgICAgICAgIm1vZGUgZGVza3RvcCBicm93c2VyIGFuZHJvaWQgdGFucGEgcmVsb2FkIiwgInBlcmJhbmRpbmdhbiBicmF2ZSBzZWFyY2ggdnMgZHVja2R1Y2tnbyIKICAgICksCiAgICBsaXN0T2YoImJlcml0YSIsICJjdWFjYSIsICJrdXJzIiwgInRyYW5zbGF0ZSIsICJ0ZXJqZW1haCIsICJiZWxhamFyIiwgImNhcmEiKSB0byBsaXN0T2YoCiAgICAgICAgImJlcml0YSB0ZWtub2xvZ2kgaGFyaSBpbmkiLCAia3VycyBkb2xsYXIgcnVwaWFoIHRlcmJhcnUiLCAiY3VhY2EgaGFyaSBpbmkiLAogICAgICAgICJjYXJhIG1lbWJlcnNpaGthbiBjYWNoZSBzaXR1cyB0ZXJ0ZW50dSIKICAgICkKKQoKZGF0YSBjbGFzcyBTZWFyY2hTdWdnZXN0aW9uKAogICAgdmFsIHRleHQ6IFN0cmluZywgICAgICAgLy8geWFuZyBkaWlzaSBrZSBrb2xvbSAvIGRpbmF2aWdhc2kKICAgIHZhbCBsYWJlbDogU3RyaW5nLCAgICAgIC8vIHN1YnRpdGxlIGJhcmlzCiAgICB2YWwgaXNEb21haW46IEJvb2xlYW4KKQoKLyoqCiAqIFVydXRhbiBwcm90b3RpcGU6ICgxKSBkb21haW4gY29jb2sgbWFrcyAyOyAoMikgc2FyYW4gdG9waWsgc2FtcGFpIHRvdGFsIDU7CiAqICgzKSBzdWZpa3MgZGluYW1pcyBzYW1wYWkgdG90YWwgNS4gQm9va21hcmsvcml3YXlhdCBkaXRhbmdhbmkgcGVtYW5nZ2lsCiAqIChkaXRhbXBpbGthbiBkaSBzZWtzaSB0ZXJwaXNhaCwgYnVrYW4gZGkgZGFmdGFyIGluaSkuCiAqLwpmdW4gYnVpbGRTbWFydFN1Z2dlc3Rpb25zKHF1ZXJ5OiBTdHJpbmcpOiBMaXN0PFNlYXJjaFN1Z2dlc3Rpb24+IHsKICAgIHZhbCBxID0gcXVlcnkudHJpbSgpLmxvd2VyY2FzZSgpCiAgICBpZiAocS5pc0VtcHR5KCkpIHJldHVybiBlbXB0eUxpc3QoKQogICAgdmFsIG91dCA9IG11dGFibGVMaXN0T2Y8U2VhcmNoU3VnZ2VzdGlvbj4oKQogICAgZm9yIChkIGluIEtOT1dOX0RPTUFJTlMpIHsKICAgICAgICBpZiAob3V0LnNpemUgPj0gMikgYnJlYWsKICAgICAgICBpZiAoZC5rZXl3b3Jkcy5hbnkgeyBxLmNvbnRhaW5zKGl0KSB9IHx8IGQuZG9tYWluLmNvbnRhaW5zKHEpKSB7CiAgICAgICAgICAgIG91dCArPSBTZWFyY2hTdWdnZXN0aW9uKGQuZG9tYWluLCAiJHtkLmxhYmVsfSDCtyBLdW5qdW5naSBzaXR1cyIsIHRydWUpCiAgICAgICAgfQogICAgfQogICAgZm9yICgoa2V5cywgaXRlbXMpIGluIFRPUElDX1NVR0dFU1RJT05TKSB7CiAgICAgICAgaWYgKG91dC5zaXplID49IDUpIGJyZWFrCiAgICAgICAgaWYgKGtleXMuYW55IHsgcS5jb250YWlucyhpdCkgfSkgewogICAgICAgICAgICBmb3IgKHMgaW4gaXRlbXMpIHsKICAgICAgICAgICAgICAgIGlmIChvdXQuc2l6ZSA+PSA1KSBicmVhawogICAgICAgICAgICAgICAgaWYgKG91dC5ub25lIHsgaXQudGV4dCA9PSBzIH0pIG91dCArPSBTZWFyY2hTdWdnZXN0aW9uKHMsICJTYXJhbiBwZW5jYXJpYW4iLCBmYWxzZSkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KICAgIGlmIChvdXQuc2l6ZSA8IDUpIHsKICAgICAgICB2YWwgc3VmZml4ZXMgPSBpZiAocS5jb250YWlucygiLiIpICYmICFxLmNvbnRhaW5zKCIgIikpIHsKICAgICAgICAgICAgbGlzdE9mKCIkcS9sb2dpbiIsICIkcSBhbHRlcm5hdGlmIiwgIiRxIHJldmlldyIpCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgbGlzdE9mKCIkcSB0ZXJiYXJ1IiwgIiRxIHR1dG9yaWFsIGxlbmdrYXAiLCAiJHEgcmVzbWkiLCAiJHEgZG93bmxvYWQiKQogICAgICAgIH0KICAgICAgICBmb3IgKHMgaW4gc3VmZml4ZXMpIHsKICAgICAgICAgICAgaWYgKG91dC5zaXplID49IDUpIGJyZWFrCiAgICAgICAgICAgIGlmIChvdXQubm9uZSB7IGl0LnRleHQgPT0gcyB9KSBvdXQgKz0gU2VhcmNoU3VnZ2VzdGlvbihzLCAiU2FyYW4gcGVuY2FyaWFuIiwgZmFsc2UpCiAgICAgICAgfQogICAgfQogICAgcmV0dXJuIG91dAp9Cg==
+package com.karsa.browser.browser
+
+import java.util.UUID
+
+// ---------- Mesin pencari (porting prototipe commit 36cd752) ----------
+
+enum class SearchEngineId(val id: String) {
+    GOOGLE("google"),
+    BRAVE("brave"),
+    DUCKDUCKGO("duckduckgo"),
+    BING("bing"),
+    YANDEX("yandex"),
+    CUSTOM("custom");
+
+    companion object {
+        fun fromId(id: String): SearchEngineId =
+            entries.firstOrNull { it.id == id } ?: GOOGLE
+    }
+}
+
+data class SearchEngineConfig(
+    val id: SearchEngineId,
+    val name: String,
+    val shortLabel: String,
+    val urlTemplate: String,
+    val description: String,
+    val domain: String
+)
+
+val DEFAULT_SEARCH_ENGINES: List<SearchEngineConfig> = listOf(
+    SearchEngineConfig(SearchEngineId.GOOGLE, "Google", "G", "https://www.google.com/search?q=%s", "Pencarian cepat dan hasil paling luas (Default)", "google.com"),
+    SearchEngineConfig(SearchEngineId.BRAVE, "Brave Search", "Br", "https://search.brave.com/search?q=%s", "Indeks independen, privat, tanpa pelacakan iklan", "search.brave.com"),
+    SearchEngineConfig(SearchEngineId.DUCKDUCKGO, "DuckDuckGo", "DDG", "https://duckduckgo.com/?q=%s", "Fokus privasi tanpa riwayat pencarian terpersonalisasi", "duckduckgo.com"),
+    SearchEngineConfig(SearchEngineId.BING, "Bing", "B", "https://www.bing.com/search?q=%s", "Pencarian visual dan jawaban terstruktur Microsoft", "bing.com"),
+    SearchEngineConfig(SearchEngineId.YANDEX, "Yandex", "Ya", "https://yandex.com/search/?text=%s", "Kuat untuk pencarian lintas wilayah & gambar", "yandex.com"),
+    SearchEngineConfig(SearchEngineId.CUSTOM, "Kustom (Custom URL)", "URL", "https://example.com/?q=%s", "Gunakan template URL mesin pencari Anda sendiri (%s)", "custom")
+)
+
+/** Engine aktif dari settings (Kustom memakai nama/template yang disimpan pengguna). */
+fun activeSearchEngine(settings: RenderSettings): SearchEngineConfig {
+    val id = SearchEngineId.fromId(settings.searchEngineId)
+    val base = DEFAULT_SEARCH_ENGINES.first { it.id == id }
+    if (id != SearchEngineId.CUSTOM) return base
+    val name = settings.customSearchName.trim().ifEmpty { base.name }
+    val template = settings.customSearchTemplate.trim().ifEmpty { base.urlTemplate }
+    val domain = runCatching { java.net.URL(template).host.removePrefix("www.") }.getOrElse { "custom" }
+    return base.copy(name = name, urlTemplate = template, domain = domain)
+}
+
+/** Aturan bangun URL persis prototipe: %s diganti semua; tanpa %s pakai ?q= / &. */
+fun buildSearchUrl(engine: SearchEngineConfig, query: String): String {
+    val encoded = java.net.URLEncoder.encode(query.trim(), "UTF-8")
+    val tpl = engine.urlTemplate.trim().ifEmpty { "https://www.google.com/search?q=%s" }
+    if (tpl.contains("%s")) return tpl.replace("%s", encoded)
+    val separator = if (tpl.contains("?")) {
+        if (tpl.endsWith("?") || tpl.endsWith("&")) "" else "&"
+    } else "?q="
+    return "$tpl$separator$encoded"
+}
+
+// ---------- Tab & halaman Home ----------
+
+data class BrowserTab(
+    val id: String = UUID.randomUUID().toString(),
+    val title: String = "Beranda",
+    val url: String = HOME_URL,
+    val incognito: Boolean = false,
+    val desktopMode: Boolean = false
+) {
+    companion object {
+        /** Halaman awal v2: Home orisinal Karsa (bukan lagi arena game). */
+        const val HOME_URL = "karsa://home"
+    }
+    val host: String get() = if (url == HOME_URL) "Karsa Home" else runCatching {
+        java.net.URL(url).host ?: url
+    }.getOrElse { url }
+    val isSecure: Boolean get() = url.startsWith("https://") || url.startsWith("karsa://")
+    val isHome: Boolean get() = url == HOME_URL
+    val faviconLabel: String get() = if (isHome) "K" else host.firstOrNull()?.uppercase() ?: "W"
+}
+
+data class HomeShortcut(
+    val id: String = UUID.randomUUID().toString(),
+    val label: String,
+    val url: String,
+    val badge: String
+)
+
+val DEFAULT_SHORTCUTS: List<HomeShortcut> = listOf(
+    HomeShortcut(id = "sc-google", label = "Google", url = "https://www.google.com", badge = "G"),
+    HomeShortcut(id = "sc-x", label = "X", url = "https://x.com", badge = "X"),
+    HomeShortcut(id = "sc-youtube", label = "YouTube", url = "https://m.youtube.com", badge = "YT")
+)
+
+/** Badge pintasan: 2 huruf alfanumerik pertama label, huruf besar; kosong -> "WB". */
+fun shortcutBadgeFor(label: String): String {
+    val letters = label.filter { it.isLetterOrDigit() }.take(2).uppercase()
+    return letters.ifEmpty { "WB" }
+}
+
+fun shortcutLabelFor(url: String): String = runCatching {
+    val host = java.net.URL(url).host.removePrefix("www.").split(".").firstOrNull().orEmpty()
+    host.replaceFirstChar { it.uppercase() }.ifEmpty { "Pintasan" }
+}.getOrElse { "Pintasan" }
+
+enum class PermissionValue { ALLOW, ASK, BLOCK }
+
+data class SitePermissions(
+    val clipboard: PermissionValue = PermissionValue.ALLOW,
+    val notifications: PermissionValue = PermissionValue.ASK,
+    val camera: PermissionValue = PermissionValue.BLOCK,
+    val microphone: PermissionValue = PermissionValue.BLOCK,
+    val location: PermissionValue = PermissionValue.BLOCK,
+    val popups: PermissionValue = PermissionValue.ALLOW,
+    val autoplay: PermissionValue = PermissionValue.ALLOW
+)
+
+/** Profil awal v2: hanya 1 — "Profil Utama" (P1), tanpa wallet/seed. */
+data class BrowserProfile(
+    val id: String = "prof-main",
+    val name: String = "Profil Utama",
+    val badge: String = "P1",
+    val walletLabel: String? = null,
+    val proxySummary: String = "DIRECT"
+)
+
+data class BookmarkItem(val id: String = UUID.randomUUID().toString(), val title: String, val url: String, val folder: String = "Tersimpan")
+data class HistoryItem(val id: String = UUID.randomUUID().toString(), val title: String, val url: String, val visitedAt: String)
+data class DownloadItem(val id: String = UUID.randomUUID().toString(), val filename: String, val size: String, val status: String = "Selesai")
+
+enum class OrientationLock { AUTO, PORTRAIT, LANDSCAPE }
+
+data class RenderSettings(
+    val zoomPercent: Int = 100,          // 50..200
+    val forceZoom: Boolean = true,
+    val forceDarkMode: Boolean = false,
+    val adBlockEnabled: Boolean = true,
+    val antiRedirectEnabled: Boolean = true,
+    val walletWhitelistEnabled: Boolean = true,
+    val disablePullToRefreshPerSite: Boolean = true,
+    val translateEnabled: Boolean = false,
+    val translateTarget: String = "id",  // default Auto-Deteksi -> Bahasa Indonesia
+    val searchEngineId: String = "google",
+    val customSearchName: String = "",
+    val customSearchTemplate: String = "",
+    val searchSuggestionsEnabled: Boolean = true
+)
+
+/**
+ * Aturan navigasi kolom search v2:
+ * - "karsa://home" -> Home.
+ * - URL lengkap / domain (ada "." tanpa spasi) -> buka langsung sebagai URL.
+ * - Kata kunci biasa -> cari via mesin pencari aktif (default Google).
+ */
+fun resolveNavigationInput(raw: String, engine: SearchEngineConfig): String {
+    val t = raw.trim()
+    if (t.isEmpty()) return ""
+    if (t.startsWith("http://") || t.startsWith("https://") || t.startsWith("karsa://")) return t
+    if (t.contains(".") && !t.contains(" ")) return "https://$t"
+    return buildSearchUrl(engine, t)
+}
+
+fun isUrlLike(raw: String): Boolean {
+    val t = raw.trim()
+    return t.startsWith("http://") || t.startsWith("https://") || t.startsWith("karsa://") ||
+        (t.contains(".") && !t.contains(" "))
+}
+
+fun titleFromUrl(url: String): String {
+    if (url == BrowserTab.HOME_URL) return "Beranda"
+    return runCatching {
+        java.net.URL(url).host.removePrefix("www.")
+    }.getOrElse { url }
+}
+
+// ---------- Saran Pencarian (Autocomplete) — 100% lokal, tanpa API ----------
+
+data class KnownDomain(val domain: String, val label: String, val keywords: List<String>)
+
+val KNOWN_DOMAINS: List<KnownDomain> = listOf(
+    KnownDomain("google.com", "Google", listOf("google", "goo", "search")),
+    KnownDomain("x.com", "X (Twitter)", listOf("x.com", "twitter", "twi", "x")),
+    KnownDomain("youtube.com", "YouTube", listOf("youtube", "you", "yt", "video")),
+    KnownDomain("github.com", "GitHub", listOf("github", "git", "repo", "code")),
+    KnownDomain("rabby.io", "Rabby Wallet", listOf("rabby", "wallet", "web3")),
+    KnownDomain("coingecko.com", "CoinGecko", listOf("coin", "coingecko", "crypto", "harga")),
+    KnownDomain("defillama.com", "DefiLlama", listOf("defi", "llama", "tvl", "crypto")),
+    KnownDomain("play.aetherfrontier.gg", "Aether Frontier — Web3 Arena", listOf("aether", "game", "play", "web3", "arena")),
+    KnownDomain("discord.com", "Discord", listOf("discord", "disc", "chat")),
+    KnownDomain("wikipedia.org", "Wikipedia", listOf("wiki", "wikipedia"))
+)
+
+val TOPIC_SUGGESTIONS: List<Pair<List<String>, List<String>>> = listOf(
+    listOf("web3", "wallet", "rabby", "metamask", "crypto", "eth", "btc", "sol", "defi") to listOf(
+        "walletconnect mobile android", "rabby wallet extension chrome", "harga ethereum hari ini",
+        "airdrop web3 terbaru 2026", "gas fee arbitrum tracker"
+    ),
+    listOf("game", "aether", "fps", "webgl", "play", "steam") to listOf(
+        "game web3 browser ringan android", "webgl 60fps optimization mobile",
+        "aether frontier guide pemula", "setting dpi browser gaming android"
+    ),
+    listOf("karsa", "browser", "android", "chrome", "brave", "duck") to listOf(
+        "karsa browser android apk", "cara pasang ekstensi chrome di android",
+        "mode desktop browser android tanpa reload", "perbandingan brave search vs duckduckgo"
+    ),
+    listOf("berita", "cuaca", "kurs", "translate", "terjemah", "belajar", "cara") to listOf(
+        "berita teknologi hari ini", "kurs dollar rupiah terbaru", "cuaca hari ini",
+        "cara membersihkan cache situs tertentu"
+    )
+)
+
+data class SearchSuggestion(
+    val text: String,       // yang diisi ke kolom / dinavigasi
+    val label: String,      // subtitle baris
+    val isDomain: Boolean
+)
+
+/**
+ * Urutan prototipe: (1) domain cocok maks 2; (2) saran topik sampai total 5;
+ * (3) sufiks dinamis sampai total 5. Bookmark/riwayat ditangani pemanggil
+ * (ditampilkan di seksi terpisah, bukan di daftar ini).
+ */
+fun buildSmartSuggestions(query: String): List<SearchSuggestion> {
+    val q = query.trim().lowercase()
+    if (q.isEmpty()) return emptyList()
+    val out = mutableListOf<SearchSuggestion>()
+    for (d in KNOWN_DOMAINS) {
+        if (out.size >= 2) break
+        if (d.keywords.any { q.contains(it) } || d.domain.contains(q)) {
+            out += SearchSuggestion(d.domain, "${d.label} · Kunjungi situs", true)
+        }
+    }
+    for ((keys, items) in TOPIC_SUGGESTIONS) {
+        if (out.size >= 5) break
+        if (keys.any { q.contains(it) }) {
+            for (s in items) {
+                if (out.size >= 5) break
+                if (out.none { it.text == s }) out += SearchSuggestion(s, "Saran pencarian", false)
+            }
+        }
+    }
+    if (out.size < 5) {
+        val suffixes = if (q.contains(".") && !q.contains(" ")) {
+            listOf("$q/login", "$q alternatif", "$q review")
+        } else {
+            listOf("$q terbaru", "$q tutorial lengkap", "$q resmi", "$q download")
+        }
+        for (s in suffixes) {
+            if (out.size >= 5) break
+            if (out.none { it.text == s }) out += SearchSuggestion(s, "Saran pencarian", false)
+        }
+    }
+    return out
+}
