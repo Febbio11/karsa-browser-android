@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- FileProvider untuk installer update otomatis: APK unduhan di
+     getExternalFilesDir(Download)/karsa-browser-debug.apk -->
+<paths>
+    <external-files-path name="downloads" path="Download/" />
+</paths>
