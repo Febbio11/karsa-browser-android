@@ -21,6 +21,7 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.BorderStroke
+import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.defaultMinSize
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
@@ -30,8 +31,6 @@ import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Lock
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.rounded.AccessTime
-import androidx.compose.material.icons.rounded.ArrowUpLeft
-import androidx.compose.material.icons.rounded.ArrowUpRight
 import androidx.compose.material.icons.rounded.Bookmark
 import androidx.compose.material.icons.rounded.Check
 import androidx.compose.material.icons.rounded.ContentCopy
@@ -39,6 +38,8 @@ import androidx.compose.material.icons.rounded.Edit
 import androidx.compose.material.icons.rounded.Extension
 import androidx.compose.material.icons.rounded.Language
 import androidx.compose.material.icons.rounded.Monitor
+import androidx.compose.material.icons.rounded.NorthEast
+import androidx.compose.material.icons.rounded.NorthWest
 import androidx.compose.material.icons.rounded.Share
 import androidx.compose.material.icons.rounded.Tune
 import androidx.compose.material3.AlertDialog
@@ -462,7 +463,7 @@ fun AddressOverlay(
                             style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant
                         )
                     }
-                    Icon(Icons.Rounded.ArrowUpRight, contentDescription = null, modifier = Modifier.size(18.dp), tint = MaterialTheme.colorScheme.onSurfaceVariant)
+                    Icon(Icons.Rounded.NorthEast, contentDescription = null, modifier = Modifier.size(18.dp), tint = MaterialTheme.colorScheme.onSurfaceVariant)
                 }
                 Divider()
             }
@@ -481,7 +482,7 @@ fun AddressOverlay(
                             Text(b.url.removePrefix("https://").removePrefix("http://"), maxLines = 1, overflow = TextOverflow.Ellipsis, fontFamily = FontFamily.Monospace, style = MaterialTheme.typography.bodySmall)
                         }
                         IconButton(onClick = { onDraftChange(b.url) }, modifier = Modifier.size(32.dp)) {
-                            Icon(Icons.Rounded.ArrowUpLeft, contentDescription = "Masukkan ke kolom pencarian", modifier = Modifier.size(16.dp))
+                            Icon(Icons.Rounded.NorthWest, contentDescription = "Masukkan ke kolom pencarian", modifier = Modifier.size(16.dp))
                         }
                     }
                 }
@@ -493,7 +494,7 @@ fun AddressOverlay(
                             Text("${h.url.removePrefix("https://").removePrefix("http://")} · ${h.visitedAt}", maxLines = 1, overflow = TextOverflow.Ellipsis, fontFamily = FontFamily.Monospace, style = MaterialTheme.typography.bodySmall)
                         }
                         IconButton(onClick = { onDraftChange(h.url) }, modifier = Modifier.size(32.dp)) {
-                            Icon(Icons.Rounded.ArrowUpLeft, contentDescription = "Masukkan ke kolom pencarian", modifier = Modifier.size(16.dp))
+                            Icon(Icons.Rounded.NorthWest, contentDescription = "Masukkan ke kolom pencarian", modifier = Modifier.size(16.dp))
                         }
                     }
                 }
@@ -516,7 +517,7 @@ fun AddressOverlay(
                             Text(s.label, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
                         }
                         IconButton(onClick = { onDraftChange(s.text) }, modifier = Modifier.size(32.dp)) {
-                            Icon(Icons.Rounded.ArrowUpLeft, contentDescription = "Masukkan ke kolom pencarian", modifier = Modifier.size(16.dp))
+                            Icon(Icons.Rounded.NorthWest, contentDescription = "Masukkan ke kolom pencarian", modifier = Modifier.size(16.dp))
                         }
                     }
                 }
