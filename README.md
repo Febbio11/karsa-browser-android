@@ -1,1 +1,103 @@
-IyBLYXJzYSBCcm93c2VyIHYxLjAuMiDigJQgTVZQIEFuZHJvaWQgTmF0aXZlCgoqKmBjb20ua2Fyc2EuYnJvd3NlcmAgwrcgS290bGluICsgSmV0cGFjayBDb21wb3NlIMK3IE1pbiBTREsgMjYgKEFuZHJvaWQgOC4wKykgwrcgdmVyc2lvbkNvZGUgMyoqCgpCcm93c2VyIEFuZHJvaWQgZGFyaSBwcm90b3RpcGUKW2BGZWJiaW8xMS9rYXJzYS1icm93c2VyLXByb3RvdHlwZWBdKGh0dHBzOi8vZ2l0aHViLmNvbS9GZWJiaW8xMS9rYXJzYS1icm93c2VyLXByb3RvdHlwZSkKKGdheWEgQ2xhdWRlIEFJOiB0ZXJhbmcgYCNGN0Y1RjBgIC8gZ2VsYXAgYCMxOTE4MTZgLCBha3NlbiBgI0M4NjQ0MmAsIHNlcmlmIGVkaXRvcmlhbCArClBsdXMgSmFrYXJ0YSBTYW5zICsgSmV0QnJhaW5zIE1vbm8pLgoKPiAqKnYxLjAuMiAoMjIgTm92IDIwMjYsIHBvcnRpbmcgcHJvdG90aXBlIGNvbW1pdCBgMzZjZDc1MmApOioqIEJhciBhdGFzIGphZGkgMyBlbGVtZW4KPiArIEJvdHRvbSBCYXIgNSBtZW51LCBzZW11YSBpa29uIHZla3RvciBtb25va3JvbSwgSG9tZSBvcmlzaW5hbCBLYXJzYSBzZWJhZ2FpCj4gdGFtcGlsYW4gYXdhbCAoc3RhdGUgMTAwJSBmcmVzaCwgdGFucGEgZGF0YSBkdW1teSksICoqTW9kZSBNb2JpbGUgZGVmYXVsdCoqLAo+IG11bHRpIG1lc2luIHBlbmNhcmkgKyBhdXRvY29tcGxldGUgbG9rYWwuCgo+ICoqRW5naW5lIHYxOiBBbmRyb2lkIFN5c3RlbSBXZWJWaWV3IHlhbmcgZGltb2RpZmlrYXNpIG1ha3NpbWFsIOKAlCBCVUtBTiBrb21waWxhc2kKPiBDaHJvbWl1bSBkYXJpIG5vbC4qKiBGdWxsIENocm9taXVtIGZvcmsgKENyb21pdGUvVW5nb29nbGVkICsgcGF0Y2ggZWtzdGVuc2kpCj4gYWRhbGFoIHJvYWRtYXAgRmFzZSAzIGRpIHByb3RvdGlwZSwgZGFuIHRpZGFrIHJlYWxpc3RpcyBkaSBWTSA2IEdCIC8gMSw1IENQVQo+IChjZWsgMjEgTm92IDIwMjY6IFJBTSBhdmFpbGFibGUgNjIwIE1CLCBWTSBiaXNhIGRpLXJlcGxhY2UgdGlhcCBqYW0pLgo+IEJ1aWxkIGJlcmF0IGRpbGFrdWthbiBkaSAqKkdpdEh1YiBBY3Rpb25zKiosIGJ1a2FuIGRpIFZNIGluaS4KCiMjIFlhbmcgYWRhIGRpIHYxLjAuMgoKfCBBcmVhIHwgSXNpIHwKfC0tLXwtLS18CnwgKipCYXIgYXRhcyAoMSBiYXJpcywgMyBlbGVtZW4pKiogfCBgW1BpbGwgVVJMIGxlYmFyXWAg4oaSIGBbRWtzdGVuc2ldYCDihpIgYFtGdWxsIExheWFyXWAg4oCUIGBzdGF0dXNCYXJzUGFkZGluZygpYCBhZ2FyIHRpZGFrIGtldHV0dXAgc3RhdHVzIGJhciBBbmRyb2lkLiBTZW11YSBpa29uIHZla3RvciBtb25va3JvbSAoTWF0ZXJpYWwgUm91bmRlZCksIHRhbnBhIGVtb2ppIHwKfCAqKkJvdHRvbSBCYXIgKDUgbWVudSkqKiB8IGBbSG9tZV1gIOKGkiBgW0Jvb2ttYXJrIDEtdGFwXWAg4oaSIGBbKyBUYW1iYWggVGFiXWAg4oaSIGBbS290YWsgVGFiIGJlcmFuZ2thXWAg4oaSIGBb4ouuIE1lbnVdYCDigJQgYG5hdmlnYXRpb25CYXJzUGFkZGluZygpYCBhZ2FyIGR1ZHVrIGRpIGF0YXMgZ2VzdHVyZSBiYXIuIEJvb2ttYXJrIDEtdGFwOiBoaXRhbSBzb2xpZCBzYWF0IHRlcnNpbXBhbiArIHRvYXN0IG1lbmdhbWJhbmcgKGF1dG8taGlkZSAyLDUgZHRrKTsgbm9uYWt0aWYgZGkgSG9tZSB8CnwgKipIb21lIG9yaXNpbmFsIEthcnNhKiogfCBga2Fyc2E6Ly9ob21lYCBzZWJhZ2FpIHRhbXBpbGFuIGF3YWw6IHdvcmRtYXJrIHNlcmlmICJLYXJzYSIsIHN1YnRpdGxlIE1vZGUgTW9iaWxlLCBwaWxsIHBlbmNhcmlhbiAoYmFkZ2UgZW5naW5lKSwgZ3JpZCBQaW50YXNhbiBDZXBhdCA0IGtvbG9tIChHb29nbGUgLyBYIC8gWW91VHViZSwgYmlzYSB0YW1iYWgvaGFwdXMsIHRlcnNpbXBhbiBkaSBEYXRhU3RvcmUpLiBTdGF0ZSBhd2FsIDEwMCUgZnJlc2gg4oCUIDAgdGFiIGR1bW15LCAwIGJvb2ttYXJrL3Jpd2F5YXQvdW5kdWhhbi9la3N0ZW5zaS91c2Vyc2NyaXB0IHwKfCAqKlNlYXJjaC9VUkwqKiB8IEtldHVrID0gb3RvbWF0aXMga29zb25nLCBiYWRnZSBtZXNpbiBwZW5jYXJpICsgcGlja2VyIGNlcGF0IGRpIG92ZXJsYXksIHRvbWJvbCBUZW1wZWwgY2VwYXQsIGthcnR1IGhhbGFtYW4gYWt0aWYgKEJhZ2lrYW4gLyBTYWxpbiAvIEVkaXQgVVJMKSwgY2hpcCBjbGlwYm9hcmQsIGDihpBgIC8gdGFwIGx1YXIgPSBiYXRhbCAqKnRhbnBhIHJlbG9hZCoqIHwKfCAqKk11bHRpIE1lc2luIFBlbmNhcmkqKiB8IEdvb2dsZSAoZGVmYXVsdCksIEJyYXZlLCBEdWNrRHVja0dvLCBCaW5nLCBZYW5kZXgsIEt1c3RvbSAodGVtcGxhdGUgVVJMIGAlc2AgKyB2YWxpZGFzaSkuIERpcGlsaWggZGFyaSBiYWRnZSBkaSBrb2xvbSBzZWFyY2gsIHBpY2tlciBvdmVybGF5LCBhdGF1IHNoZWV0IGRpIG1lbnUg4ouuIHwKfCAqKlNhcmFuIFBlbmNhcmlhbiAoQXV0b2NvbXBsZXRlKSoqIHwgMTAwJSBsb2thbCwgdGFucGEgQVBJOiBkb21haW4gZGlrZW5hbCAoMTApLCB0b3BpayAoNCBncnVwKSwgc3VmaWtzIGRpbmFtaXMsIGJvb2ttYXJrICYgcml3YXlhdC4gTWFrcyA1IHNhcmFuLCBiYWdpYW4gY29jb2sgZGljZXRhayB0ZWJhbCwgdG9tYm9sIGlzaS1rb2xvbSBwZXIgYmFyaXMuIEJpc2EgZGltYXRpa2FuIGRpIHNoZWV0IE1lc2luIFBlbmNhcmkgfAp8ICoqTW9kZSBNb2JpbGUgKGRlZmF1bHQpKiogfCBVQSBDaHJvbWUgTW9iaWxlIGJlcnNpaCBQaXhlbCA4ICh0YW5wYSBgOyB3dmApIGFnYXIgR29vZ2xlICYgWW91VHViZSB0YW1waWwgbm9ybWFsLiBUb2dnbGUgKipNb2RlIERlc2t0b3AqKiBwZXIgdGFiIGRpIG1lbnUg4ouuIChwYWxpbmcgYXRhcykg4oCUIFVBIENocm9tZSBEZXNrdG9wICsgd2lkZSB2aWV3cG9ydCArIHJlbG9hZC4gSW5nYXQtcGVyLXNpdHVzIHZpYSBjaGVja2JveCBkaSBJbmZvIFNpdHVzIHwKfCAqKkluZm8gU2l0dXMgKGdlbWJvaykqKiB8IFNTTCwgSGFwdXMgQ2FjaGUgc2l0dXMgaW5pLCBSZXNldCBJemluLCB0b2dnbGUgaXppbiBjZXBhdCwgdG9nZ2xlIEFudGktUmVkaXJlY3QgJiBNYXRpa2FuIFB1bGwtdG8tUmVmcmVzaCBwZXIgc2l0dXMsIGNoZWNrYm94ICJJbmdhdCBNb2RlIERlc2t0b3AgdW50dWsgc2l0dXMgaW5pIiwgaW5mbyBQcm9maWwvUHJveHkgfAp8ICoqRWtzdGVuc2kqKiB8IEhhbnlhIGRpIGJhciBhdGFzICh0b2dnbGUgbGFuZ3N1bmcsIHRhbnBhIGDihpBgL2DDl2ApLiB2MSA9IHBlbmdlbG9sYSAqKlVzZXJzY3JpcHQgKGAudXNlci5qc2AvYC5qc2ApKiogKyBmaWxlIHBpY2tlciBBbmRyb2lkLiBBcnNpdGVrdHVyIG1vZHVsYXIgdW50dWsgdjIgKGAuY3J4YCAvIFdlYiBTdG9yZSkgfAp8ICoqRnVsbCBMYXlhcioqIHwgSGFueWEgZGkgYmFyIGF0YXMuIFZlcnRpa2FsICYgSG9yaXpvbnRhbCArIGt1bmNpIG9yaWVudGFzaSBtYW51YWwgKyB0b21ib2wga2VsdWFyIG1lbGF5YW5nIHRhbnBhIHJlbG9hZCAoYGNvbmZpZ0NoYW5nZXNgIGRpIE1hbmlmZXN0KSB8CnwgKirii64gTWVudSAoMSBrb2xvbSwgc2Nyb2xsKSoqIHwgTW9kZSBEZXNrdG9wIChwYWxpbmcgYXRhcyksIFpvb20gYC1gL2BGaXRgL2ArYCAmIFBha3NhIFpvb20sIE1vYmlsZSBEZXZUb29scyAoQ29uc29sZSBKUyB2MSksIFRlcm1pbmFsICYgUHJveHksIFJlbmRlciAmIEZQUywgUHJvZmlsLCBQYXNza2V5L1NhbmRpLCBJbmNvZ25pdG8sIE1lc2luIFBlbmNhcmksIENhcmkgZGkgSGFsYW1hbiwgQm9va21hcmssIFVuZHVoYW4sIFJpd2F5YXQsIFNpbXBhbiBQREYsIFRlcmplbWFoYW4gQXV0byDihpIgQmFoYXNhIEluZG9uZXNpYSwgRm9yY2UgRGFyayBNb2RlLCBBZCBCbG9ja2VyLCBJemluIFNpdHVzLCBDb29raWUsIENlayBVcGRhdGUgR2l0SHViIFJlbGVhc2VzLiBUaWFwIHN1Yi1tZW51IHB1bnlhIGDihpBgIEtlbWJhbGkgZGFuIGDDl2AgVHV0dXAgfAp8ICoqV2ViVmlldyB2MS4wLjIqKiB8ICoqTW9kZSBNb2JpbGUgZGVmYXVsdCoqIChVQSBQaXhlbCA4IENocm9tZSAxMzEsIGhhcHVzIGA7IHd2YCksIE1vZGUgRGVza3RvcCA9IFVBIENocm9tZSAxMzEgV2luZG93cyArIHdpZGUgdmlld3BvcnQsIGBzZXRTdXBwb3J0TXVsdGlwbGVXaW5kb3dzKHRydWUpYCwgYGphdmFTY3JpcHRDYW5PcGVuV2luZG93c0F1dG9tYXRpY2FsbHk9dHJ1ZWAsIGBkb21TdG9yYWdlRW5hYmxlZD10cnVlYCwgYHNldEFjY2VwdFRoaXJkUGFydHlDb29raWVzKHdlYlZpZXcsIHRydWUpYCB8CnwgKipHb29nbGUgKDIyIE5vdiAyMDI2KSoqIHwgTWVzaW4gcGVuY2FyaSBkZWZhdWx0ID0gKipHb29nbGUgU2VhcmNoKiogKGBodHRwczovL3d3dy5nb29nbGUuY29tL3NlYXJjaD9xPS4uLmApIHVudHVrIGthdGEga3VuY2kgYmlhc2EgZGkga29sb20gc2VhcmNoIChgTW9kZWxzLmt0OiByZXNvbHZlTmF2aWdhdGlvbklucHV0YCkuIExvZ2luIGRlbmdhbiBHb29nbGU6IHNlbGFpbiBVQSBiZXJzaWgsIGhlYWRlciBgWC1SZXF1ZXN0ZWQtV2l0aGAgZGloYXB1cyB2aWEgYFdlYlNldHRpbmdzQ29tcGF0LnNldFJlcXVlc3RlZFdpdGhIZWFkZXJPcmlnaW5BbGxvd0xpc3Qoc2V0dGluZ3MsIGVtcHR5U2V0KCkpYCBkaSBXZWJWaWV3IHV0YW1hICsgcG9wLXVwIChgV2ViVmlld0ZhY3Rvcnkua3Q6IEdvb2dsZU9BdXRoQ29tcGF0YCwgZGlqYWdhIGBXZWJWaWV3RmVhdHVyZS5pc0ZlYXR1cmVTdXBwb3J0ZWRgKSBhZ2FyIHRpZGFrIGtlbmEgYDQwMyBkaXNhbGxvd2VkX3VzZXJhZ2VudGAgfAp8ICoqQW50aS1SZWRpcmVjdCBQaW50YXIqKiB8IEJsb2tpciB0b3RhbCBgdHdpdHRlcjovL2AsIGB4Oi8vYCwgYGRpc2NvcmQ6Ly9gLCBgdGc6Ly9gLCBgaW50ZW50Oi8vYCDihpIgUG9wLXVwIEZsZWtzaWJlbCAob3BzaSBCdWthIGRpIFRhYiBCYXJ1IC8gVGV0YXAgZGkgUG9wLXVwKS4gKipXaGl0ZWxpc3Qga2h1c3VzOioqIGB3YzpgIChXYWxsZXRDb25uZWN0KSAmIGByYWJieTpgIChSYWJieSBXYWxsZXQgTW9iaWxlKSBsZXdhdCBwb3AtdXAga29uZmlybWFzaSDihpIgdGFuZGEgdGFuZ2FuIGRpIGFwbGlrYXNpIHJlc21pIOKGkiBrZW1iYWxpIHRhbnBhIHJlbG9hZCB8CgojIyBTdHJ1a3R1cgoKYGBgCmthcnNhLWJyb3dzZXItYW5kcm9pZC8K4pSc4pSA4pSAIC5naXRodWIvd29ya2Zsb3dzL2J1aWxkLWFway55bWwgICAjIEJ1aWxkIEFQSyBkaSBBY3Rpb25zIChXQUpJQikK4pSc4pSA4pSAIGFwcC8K4pSCICAg4pSc4pSA4pSAIGJ1aWxkLmdyYWRsZS5rdHMgICAgICAgICAgICAgICMgQUdQIDguNS4yLCBLb3RsaW4gMi4wLjIxLCBDb21wb3NlIEJPTSAyMDI0LjA5LjAwLCB2ZXJzaW9uQ29kZSAzIC8gMS4wLjIK4pSCICAg4pSU4pSA4pSAIHNyYy9tYWluLwrilIIgICAgICAg4pSc4pSA4pSAIEFuZHJvaWRNYW5pZmVzdC54bWwgICAgICAgIyBjb25maWdDaGFuZ2VzIGFnYXIgRnVsbCBMYXlhciB0YW5wYSByZWxvYWQK4pSCICAgICAgIOKUlOKUgOKUgCBqYXZhL2NvbS9rYXJzYS9icm93c2VyLwrilIIgICAgICAgICAgIOKUnOKUgOKUgCBNYWluQWN0aXZpdHkua3QK4pSCICAgICAgICAgICDilJzilIDilIAgYnJvd3Nlci9Nb2RlbHMua3QgLyBOYXZpZ2F0aW9uR3VhcmQua3QgLyBXZWJWaWV3RmFjdG9yeS5rdArilIIgICAgICAgICAgIOKUnOKUgOKUgCB1c2Vyc2NyaXB0L1VzZXJTY3JpcHRNYW5hZ2VyLmt0CuKUgiAgICAgICAgICAg4pSU4pSA4pSAIHVpL0Jyb3dzZXJTY3JlZW4ua3QgLyBTZXR0aW5nc1N0b3JlLmt0CuKUgiAgICAgICAgICAgICAgIOKUnOKUgOKUgCB0aGVtZS9UaGVtZS5rdCAgICAjIFBhbGV0ICsgdGlwb2dyYWZpIHByb3RvdGlwZQrilIIgICAgICAgICAgICAgICDilJTilIDilIAgY29tcG9uZW50cy9TaGVldHMua3QgICMgU2l0ZUluZm8sIEV4dGVuc2lvbnMsIE1lbnUsIFRhYiwgUG9wLXVwLCBXYWxsZXQsIEFkZHJlc3NPdmVybGF5LCBTZWFyY2hFbmdpbmVTaGVldArilIIgICAgICAgICAgICAgICDilJTilIDilIAgY29tcG9uZW50cy9LYXJzYUhvbWVQYWdlLmt0IC8gU2VhcmNoRW5naW5lQmFkZ2Uua3QgICMgSG9tZSBvcmlzaW5hbCArIGJhZGdlIGVuZ2luZQrilJTilIDilIAgZ3JhZGxlL3dyYXBwZXIvICsgZ3JhZGxldwpgYGAKCiMjIFB1c2gga2UgR2l0SHViICYgdW5kdWggQVBLIChsYW5na2FoIHNpbmdrYXQpCgpgYGBiYXNoCiMgMS4gQnVhdCByZXBvIGJhcnUgZGkgR2l0SHViOiBrYXJzYS1icm93c2VyLWFuZHJvaWQgKGtvc29uZywgdGFucGEgUkVBRE1FKQojIDIuIERhcmkgZm9sZGVyIHByb3llayBpbmk6CmdpdCBpbml0CmdpdCBhZGQgLgpnaXQgY29tbWl0IC1tICJLYXJzYSBCcm93c2VyIHYxIE1WUCDigJQgV2ViVmlldyArIENvbXBvc2UiCmdpdCBicmFuY2ggLU0gbWFpbgpnaXQgcmVtb3RlIGFkZCBvcmlnaW4gaHR0cHM6Ly9naXRodWIuY29tL0ZlYmJpbzExL2thcnNhLWJyb3dzZXItYW5kcm9pZC5naXQKZ2l0IHB1c2ggLXUgb3JpZ2luIG1haW4KIyAzLiBCdWthIHJlcG8gPiB0YWIgQWN0aW9ucyA+IHdvcmtmbG93ICJCdWlsZCBBUEsiID4gdHVuZ2d1IGhpamF1ICjCsTUtMTAgbWVuaXQpCiMgNC4gRGkgaGFsYW1hbiBydW4gaXR1LCB1bmR1aCBkaSBiYWdpYW4gQXJ0aWZhY3RzOgojICAgIGthcnNhLWJyb3dzZXItZGVidWctYXBrIChhdGF1IC1yZWxlYXNlLWFwayBrYWxhdSBzaWduaW5nIHN1ZGFoIGRpaXNpKQojIDUuIEluc3RhbGwgQVBLIGRpIEhQIChpemlua2FuICJJbnN0YWxsIHVua25vd24gYXBwcyIgc2VrYWxpIHNhamEpCmBgYAoKIyMjIFJlbGVhc2Ugc2lnbmluZyAob3BzaW9uYWwsIGthbGF1IG1hdSBBUEsgcmVsZWFzZSBiZXJ0YW5kYSB0YW5nYW4pCgoxLiBCdWF0IGtleXN0b3JlIGxva2FsIHNla2FsaSBzYWphOgogICBgYGBiYXNoCiAgIGtleXRvb2wgLWdlbmtleSAtdiAta2V5c3RvcmUga2Fyc2EtcmVsZWFzZS5qa3MgLWFsaWFzIGthcnNhIC1rZXlhbGcgUlNBIC1rZXlzaXplIDIwNDggLXZhbGlkaXR5IDEwMDAwCiAgIGJhc2U2NCAtdzAga2Fyc2EtcmVsZWFzZS5qa3MgICAjIHNhbGluIG91dHB1dG55YQogICBgYGAKMi4gRGkgcmVwbyBHaXRIdWIg4oaSICoqU2V0dGluZ3Mg4oaSIFNlY3JldHMgYW5kIHZhcmlhYmxlcyDihpIgQWN0aW9ucyDihpIgTmV3IHJlcG9zaXRvcnkgc2VjcmV0Kio6CiAgIC0gYEFORFJPSURfS0VZU1RPUkVfQkFTRTY0YCA9IG91dHB1dCBiYXNlNjQgZGkgYXRhcwogICAtIGBLRVlTVE9SRV9QQVNTV09SRGAgPSBwYXNzd29yZCBrZXlzdG9yZQogICAtIGBLRVlfQUxJQVNgID0gYGthcnNhYAogICAtIGBLRVlfUEFTU1dPUkRgID0gcGFzc3dvcmQga2V5CjMuIFB1c2ggbGFnaSBrZSBgbWFpbmAg4oCUIHdvcmtmbG93IG90b21hdGlzIGJ1aWxkIGBhc3NlbWJsZVJlbGVhc2VgIGRhbiB1cGxvYWQKICAgYGthcnNhLWJyb3dzZXItcmVsZWFzZS1hcGtgLiBLYWxhdSBzZWNyZXQgYmVsdW0gZGlpc2ksIHdvcmtmbG93IGZhbGxiYWNrCiAgIGtlIGBhc3NlbWJsZURlYnVnYCBkYW4gdGV0YXAgc3Vrc2VzLgoKIyMgQmF0YXNhbiB2MSAoanVqdXIpCgotIEVrc3RlbnNpIENocm9tZSBgLmNyeGAgLyBXZWIgU3RvcmUgKipiZWx1bSoqIG5hdGl2ZSDigJQgdjEgaGFueWEgVXNlcnNjcmlwdC4KICBCdXR1aCBDaHJvbWl1bSBmb3JrIHVudHVrIE1WMyBwZW51aCAocm9hZG1hcCBwcm90b3RpcGUgRmFzZSAzKS4KLSBEZXZUb29scyB2MSBoYW55YSBDb25zb2xlIEpTICsgVGVybWluYWwuIEVsZW1lbnRzL05ldHdvcmsvU3RvcmFnZSBDRFAgcGVudWgKICBidXR1aCBEZXZUb29sc0FnZW50SG9zdCBsb2thbCAoRmFzZSAzKS4KLSBQcm94eSBwZXItc2VzaSAmIEZQUyBsaW1pdGVyIEJlZ2luRnJhbWU6IHYxIGJlc3QtZWZmb3J0IGRpIFdlYlZpZXc7CiAga29udHJvbCBwZW51aCBidXR1aCBOZXR3b3JrQ29udGV4dCBDaHJvbWl1bS4KLSBUZXJqZW1haGFuIHYxIGxld2F0IGFsdXIgR29vZ2xlIFRyYW5zbGF0ZSB3ZWI7IGluLXBsYWNlIHBlbnVoIGRpIHYyLgotIFBvcC11cCBGbGVrc2liZWwgdjE6IGlzaSBkaWJ1a2EgdmlhICJCdWthIGRpIFRhYiBCYXJ1IiB0YW5wYSByZWxvYWQ7CiAgcmVwYXJlbnRpbmcgV2ViQ29udGVudHMgcGVudWggZGkgdjIuCg==
+# Karsa Browser v1.0.2 — MVP Android Native
+
+**`com.karsa.browser` · Kotlin + Jetpack Compose · Min SDK 26 (Android 8.0+) · versionCode 3**
+
+Browser Android dari prototipe
+[`Febbio11/karsa-browser-prototype`](https://github.com/Febbio11/karsa-browser-prototype)
+(gaya Claude AI: terang `#F7F5F0` / gelap `#191816`, aksen `#C86442`, serif editorial +
+Plus Jakarta Sans + JetBrains Mono).
+
+> **v1.0.2 (22 Nov 2026, porting prototipe commit `36cd752`):** Bar atas jadi 3 elemen
+> + Bottom Bar 5 menu, semua ikon vektor monokrom, Home orisinal Karsa sebagai
+> tampilan awal (state 100% fresh, tanpa data dummy), **Mode Mobile default**,
+> multi mesin pencari + autocomplete lokal.
+
+> **Engine v1: Android System WebView yang dimodifikasi maksimal — BUKAN kompilasi
+> Chromium dari nol.** Full Chromium fork (Cromite/Ungoogled + patch ekstensi)
+> adalah roadmap Fase 3 di prototipe, dan tidak realistis di VM 6 GB / 1,5 CPU
+> (cek 21 Nov 2026: RAM available 620 MB, VM bisa di-replace tiap jam).
+> Build berat dilakukan di **GitHub Actions**, bukan di VM ini.
+
+## Yang ada di v1.0.2
+
+| Area | Isi |
+|---|---|
+| **Bar atas (1 baris, 3 elemen)** | `[Pill URL lebar]` → `[Ekstensi]` → `[Full Layar]` — `statusBarsPadding()` agar tidak ketutup status bar Android. Semua ikon vektor monokrom (Material Rounded), tanpa emoji |
+| **Bottom Bar (5 menu)** | `[Home]` → `[Bookmark 1-tap]` → `[+ Tambah Tab]` → `[Kotak Tab berangka]` → `[⋮ Menu]` — `navigationBarsPadding()` agar duduk di atas gesture bar. Bookmark 1-tap: hitam solid saat tersimpan + toast mengambang (auto-hide 2,5 dtk); nonaktif di Home |
+| **Home orisinal Karsa** | `karsa://home` sebagai tampilan awal: wordmark serif "Karsa", subtitle Mode Mobile, pill pencarian (badge engine), grid Pintasan Cepat 4 kolom (Google / X / YouTube, bisa tambah/hapus, tersimpan di DataStore). State awal 100% fresh — 0 tab dummy, 0 bookmark/riwayat/unduhan/ekstensi/userscript |
+| **Search/URL** | Ketuk = otomatis kosong, badge mesin pencari + picker cepat di overlay, tombol Tempel cepat, kartu halaman aktif (Bagikan / Salin / Edit URL), chip clipboard, `←` / tap luar = batal **tanpa reload** |
+| **Multi Mesin Pencari** | Google (default), Brave, DuckDuckGo, Bing, Yandex, Kustom (template URL `%s` + validasi). Dipilih dari badge di kolom search, picker overlay, atau sheet di menu ⋮ |
+| **Saran Pencarian (Autocomplete)** | 100% lokal, tanpa API: domain dikenal (10), topik (4 grup), sufiks dinamis, bookmark & riwayat. Maks 5 saran, bagian cocok dicetak tebal, tombol isi-kolom per baris. Bisa dimatikan di sheet Mesin Pencari |
+| **Mode Mobile (default)** | UA Chrome Mobile bersih Pixel 8 (tanpa `; wv`) agar Google & YouTube tampil normal. Toggle **Mode Desktop** per tab di menu ⋮ (paling atas) — UA Chrome Desktop + wide viewport + reload. Ingat-per-situs via checkbox di Info Situs |
+| **Info Situs (gembok)** | SSL, Hapus Cache situs ini, Reset Izin, toggle izin cepat, toggle Anti-Redirect & Matikan Pull-to-Refresh per situs, checkbox "Ingat Mode Desktop untuk situs ini", info Profil/Proxy |
+| **Ekstensi** | Hanya di bar atas (toggle langsung, tanpa `←`/`×`). v1 = pengelola **Userscript (`.user.js`/`.js`)** + file picker Android. Arsitektur modular untuk v2 (`.crx` / Web Store) |
+| **Full Layar** | Hanya di bar atas. Vertikal & Horizontal + kunci orientasi manual + tombol keluar melayang tanpa reload (`configChanges` di Manifest) |
+| **⋮ Menu (1 kolom, scroll)** | Mode Desktop (paling atas), Zoom `-`/`Fit`/`+` & Paksa Zoom, Mobile DevTools (Console JS v1), Terminal & Proxy, Render & FPS, Profil, Passkey/Sandi, Incognito, Mesin Pencari, Cari di Halaman, Bookmark, Unduhan, Riwayat, Simpan PDF, Terjemahan Auto → Bahasa Indonesia, Force Dark Mode, Ad Blocker, Izin Situs, Cookie, Cek Update GitHub Releases. Tiap sub-menu punya `←` Kembali dan `×` Tutup |
+| **WebView v1.0.2** | **Mode Mobile default** (UA Pixel 8 Chrome 131, hapus `; wv`), Mode Desktop = UA Chrome 131 Windows + wide viewport, `setSupportMultipleWindows(true)`, `javaScriptCanOpenWindowsAutomatically=true`, `domStorageEnabled=true`, `setAcceptThirdPartyCookies(webView, true)` |
+| **Google (22 Nov 2026)** | Mesin pencari default = **Google Search** (`https://www.google.com/search?q=...`) untuk kata kunci biasa di kolom search (`Models.kt: resolveNavigationInput`). Login dengan Google: selain UA bersih, header `X-Requested-With` dihapus via `WebSettingsCompat.setRequestedWithHeaderOriginAllowList(settings, emptySet())` di WebView utama + pop-up (`WebViewFactory.kt: GoogleOAuthCompat`, dijaga `WebViewFeature.isFeatureSupported`) agar tidak kena `403 disallowed_useragent` |
+| **Anti-Redirect Pintar** | Blokir total `twitter://`, `x://`, `discord://`, `tg://`, `intent://` → Pop-up Fleksibel (opsi Buka di Tab Baru / Tetap di Pop-up). **Whitelist khusus:** `wc:` (WalletConnect) & `rabby:` (Rabby Wallet Mobile) lewat pop-up konfirmasi → tanda tangan di aplikasi resmi → kembali tanpa reload |
+
+## Struktur
+
+```
+karsa-browser-android/
+├── .github/workflows/build-apk.yml   # Build APK di Actions (WAJIB)
+├── app/
+│   ├── build.gradle.kts              # AGP 8.5.2, Kotlin 2.0.21, Compose BOM 2024.09.00, versionCode 3 / 1.0.2
+│   └── src/main/
+│       ├── AndroidManifest.xml       # configChanges agar Full Layar tanpa reload
+│       └── java/com/karsa/browser/
+│           ├── MainActivity.kt
+│           ├── browser/Models.kt / NavigationGuard.kt / WebViewFactory.kt
+│           ├── userscript/UserScriptManager.kt
+│           └── ui/BrowserScreen.kt / SettingsStore.kt
+│               ├── theme/Theme.kt    # Palet + tipografi prototipe
+│               └── components/Sheets.kt  # SiteInfo, Extensions, Menu, Tab, Pop-up, Wallet, AddressOverlay, SearchEngineSheet
+│               └── components/KarsaHomePage.kt / SearchEngineBadge.kt  # Home orisinal + badge engine
+└── gradle/wrapper/ + gradlew
+```
+
+## Push ke GitHub & unduh APK (langkah singkat)
+
+```bash
+# 1. Buat repo baru di GitHub: karsa-browser-android (kosong, tanpa README)
+# 2. Dari folder proyek ini:
+git init
+git add .
+git commit -m "Karsa Browser v1 MVP — WebView + Compose"
+git branch -M main
+git remote add origin https://github.com/Febbio11/karsa-browser-android.git
+git push -u origin main
+# 3. Buka repo > tab Actions > workflow "Build APK" > tunggu hijau (±5-10 menit)
+# 4. Di halaman run itu, unduh di bagian Artifacts:
+#    karsa-browser-debug-apk (atau -release-apk kalau signing sudah diisi)
+# 5. Install APK di HP (izinkan "Install unknown apps" sekali saja)
+```
+
+### Release signing (opsional, kalau mau APK release bertanda tangan)
+
+1. Buat keystore lokal sekali saja:
+   ```bash
+   keytool -genkey -v -keystore karsa-release.jks -alias karsa -keyalg RSA -keysize 2048 -validity 10000
+   base64 -w0 karsa-release.jks   # salin outputnya
+   ```
+2. Di repo GitHub → **Settings → Secrets and variables → Actions → New repository secret**:
+   - `ANDROID_KEYSTORE_BASE64` = output base64 di atas
+   - `KEYSTORE_PASSWORD` = password keystore
+   - `KEY_ALIAS` = `karsa`
+   - `KEY_PASSWORD` = password key
+3. Push lagi ke `main` — workflow otomatis build `assembleRelease` dan upload
+   `karsa-browser-release-apk`. Kalau secret belum diisi, workflow fallback
+   ke `assembleDebug` dan tetap sukses.
+
+## Batasan v1 (jujur)
+
+- Ekstensi Chrome `.crx` / Web Store **belum** native — v1 hanya Userscript.
+  Butuh Chromium fork untuk MV3 penuh (roadmap prototipe Fase 3).
+- DevTools v1 hanya Console JS + Terminal. Elements/Network/Storage CDP penuh
+  butuh DevToolsAgentHost lokal (Fase 3).
+- Proxy per-sesi & FPS limiter BeginFrame: v1 best-effort di WebView;
+  kontrol penuh butuh NetworkContext Chromium.
+- Terjemahan v1 lewat alur Google Translate web; in-place penuh di v2.
+- Pop-up Fleksibel v1: isi dibuka via "Buka di Tab Baru" tanpa reload;
+  reparenting WebContents penuh di v2.
