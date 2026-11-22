@@ -1,1 +1,105 @@
-cGFja2FnZSBjb20ua2Fyc2EuYnJvd3Nlci51c2Vyc2NyaXB0CgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5EaXNwYXRjaGVycwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLndpdGhDb250ZXh0CmltcG9ydCBvcmcuanNvbi5KU09OT2JqZWN0CmltcG9ydCBqYXZhLmlvLkZpbGUKCi8qKgogKiBVc2Vyc2NyaXB0IHYxICgudXNlci5qcyAvIC5qcykg4oCUIHBlbmdlbG9sYSBkaSBpa29uIEVrc3RlbnNpLgogKiBBcnNpdGVrdHVyIG1vZHVsYXIgdW50dWsgdjIgKGVrc3RlbnNpIC5jcnggLyBDaHJvbWUgV2ViIFN0b3JlKToKICogIC0gdjE6IGJhY2EgbWV0YWRhdGEgPT1Vc2VyU2NyaXB0PT0sIHNpbXBhbiBmaWxlIGtlIGZpbGVzRGlyL3VzZXJzY3JpcHRzLywKICogICAgaW5qZWtzaSBkb2N1bWVudC1zdGFydCBkaSBXZWJWaWV3IChsaWhhdCBXZWJWaWV3RmFjdG9yeSkuCiAqICAtIHYyOiBhbnRhcm11a2EgeWFuZyBzYW1hIChpZC9uYW1lL2VuYWJsZWQvY29kZSkgZGlwYWthaSB1bGFuZyBvbGVoCiAqICAgIGxvYWRlciAuY3J4IOKAlCB0YW5wYSBtZW5ndWJhaCBVSSBwb3BvdmVyLgogKi8KZGF0YSBjbGFzcyBVc2VyU2NyaXB0KAogICAgdmFsIGlkOiBTdHJpbmcsCiAgICB2YWwgbmFtZTogU3RyaW5nLAogICAgdmFsIHZlcnNpb246IFN0cmluZyA9ICIxLjAuMCIsCiAgICB2YWwgZGVzY3JpcHRpb246IFN0cmluZyA9ICIiLAogICAgdmFsIG1hdGNoZXM6IExpc3Q8U3RyaW5nPiA9IGxpc3RPZigiKjovLyovKiIpLAogICAgdmFsIHJ1bkF0OiBTdHJpbmcgPSAiZG9jdW1lbnQtc3RhcnQiLAogICAgdmFsIGVuYWJsZWQ6IEJvb2xlYW4gPSB0cnVlLAogICAgdmFsIGZpbGVOYW1lOiBTdHJpbmcsCiAgICB2YWwgY29kZTogU3RyaW5nCikKCmNsYXNzIFVzZXJTY3JpcHRNYW5hZ2VyKHByaXZhdGUgdmFsIGNvbnRleHQ6IENvbnRleHQpIHsKICAgIHByaXZhdGUgdmFsIGRpcjogRmlsZSBnZXQoKSA9IEZpbGUoY29udGV4dC5maWxlc0RpciwgInVzZXJzY3JpcHRzIikuYWxzbyB7IGlmICghaXQuZXhpc3RzKCkpIGl0Lm1rZGlycygpIH0KCiAgICBzdXNwZW5kIGZ1biBsaXN0KCk6IExpc3Q8VXNlclNjcmlwdD4gPSB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgIGRpci5saXN0RmlsZXMoKT8uZmlsdGVyIHsgaXQuaXNGaWxlICYmIGl0Lm5hbWUuZW5kc1dpdGgoIi5qcyIsIGlnbm9yZUNhc2UgPSB0cnVlKSB9CiAgICAgICAgICAgID8uc29ydGVkQnkgeyBpdC5uYW1lIH0KICAgICAgICAgICAgPy5tYXBOb3ROdWxsIHsgcGFyc2UoaXQpIH0gPzogZW1wdHlMaXN0KCkKICAgIH0KCiAgICBzdXNwZW5kIGZ1biBpbnN0YWxsKGZpbGVOYW1lOiBTdHJpbmcsIGNvZGU6IFN0cmluZyk6IFVzZXJTY3JpcHQ/ID0gd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuSU8pIHsKICAgICAgICB2YWwgc2FmZSA9IGZpbGVOYW1lLnJlcGxhY2UoUmVnZXgoIlteQS1aYS16MC05Ll8tXSIpLCAiXyIpLnRha2UoMTIwKQogICAgICAgICAgICAubGV0IHsgaWYgKGl0LmVuZHNXaXRoKCIuanMiLCB0cnVlKSkgaXQgZWxzZSAiJGl0LnVzZXIuanMiIH0KICAgICAgICB2YWwgZiA9IEZpbGUoZGlyLCBzYWZlKQogICAgICAgIGYud3JpdGVUZXh0KGNvZGUpCiAgICAgICAgcGFyc2UoZikKICAgIH0KCiAgICBzdXNwZW5kIGZ1biByZW1vdmUoaWQ6IFN0cmluZyk6IEJvb2xlYW4gPSB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgIGRpci5saXN0RmlsZXMoKT8uZmlyc3RPck51bGwgeyBpdC5uYW1lV2l0aG91dEV4dGVuc2lvbiA9PSBpZCB8fCBpdC5uYW1lID09IGlkIH0/LmRlbGV0ZSgpID86IGZhbHNlCiAgICB9CgogICAgc3VzcGVuZCBmdW4gc2V0RW5hYmxlZChpZDogU3RyaW5nLCBlbmFibGVkOiBCb29sZWFuKSA9IHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgLy8gdjE6IGVuYWJsZWQgZGlzaW1wYW4gZGkgc2lkZWNhciAuanNvbiBwZXIgZmlsZSBhZ2FyIGZpbGUgLmpzIHRldGFwIG11cm5pLgogICAgICAgIHZhbCBtZXRhID0gRmlsZShkaXIsICIkaWQuZW5hYmxlZCIpCiAgICAgICAgaWYgKGVuYWJsZWQpIG1ldGEuZGVsZXRlKCkgZWxzZSBtZXRhLndyaXRlVGV4dCgiZGlzYWJsZWQiKQogICAgfQoKICAgIHN1c3BlbmQgZnVuIGlzRW5hYmxlZChpZDogU3RyaW5nKTogQm9vbGVhbiA9IHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgIUZpbGUoZGlyLCAiJGlkLmVuYWJsZWQiKS5leGlzdHMoKQogICAgfQoKICAgIC8qKiBHYWJ1bmdrYW4gc2VtdWEgc2NyaXB0IGFrdGlmIHlhbmcgbWF0Y2ggVVJMIC0+IHNhdHUgcGF5bG9hZCBpbmpla3NpLiAqLwogICAgZnVuIGNvbWJpbmVkQ29kZUZvcih1cmw6IFN0cmluZywgc2NyaXB0czogTGlzdDxVc2VyU2NyaXB0Pik6IFN0cmluZyB7CiAgICAgICAgdmFsIG1hdGNoZWQgPSBzY3JpcHRzLmZpbHRlciB7IGl0LmVuYWJsZWQgJiYgbWF0Y2hlcyhpdC5tYXRjaGVzLCB1cmwpIH0KICAgICAgICBpZiAobWF0Y2hlZC5pc0VtcHR5KCkpIHJldHVybiAiIgogICAgICAgIHJldHVybiBidWlsZFN0cmluZyB7CiAgICAgICAgICAgIGFwcGVuZCgiKGZ1bmN0aW9uKCl7dHJ5eyIpCiAgICAgICAgICAgIG1hdGNoZWQuZm9yRWFjaCB7IHMgLT4KICAgICAgICAgICAgICAgIGFwcGVuZCgiXG4vKiA9PSBLYXJzYSBVc2VyU2NyaXB0OiAke3MubmFtZX0gdiR7cy52ZXJzaW9ufSA9PSAqL1xuIikKICAgICAgICAgICAgICAgIGFwcGVuZChzLmNvZGUpCiAgICAgICAgICAgICAgICBhcHBlbmQoIlxuIikKICAgICAgICAgICAgfQogICAgICAgICAgICBhcHBlbmQoIn1jYXRjaChlKXtjb25zb2xlLndhcm4oJ1tLYXJzYSB1c2Vyc2NyaXB0XScsZSl9fSkoKTsiKQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBtYXRjaGVzKHBhdHRlcm5zOiBMaXN0PFN0cmluZz4sIHVybDogU3RyaW5nKTogQm9vbGVhbiB7CiAgICAgICAgaWYgKHBhdHRlcm5zLmlzRW1wdHkoKSkgcmV0dXJuIHRydWUKICAgICAgICByZXR1cm4gcGF0dGVybnMuYW55IHsgcCAtPgogICAgICAgICAgICBwID09ICIqOi8vKi8qIiB8fCBwID09ICIqIiB8fCB1cmwuc3RhcnRzV2l0aChwLnJlbW92ZVN1ZmZpeCgiKiIpKSB8fAogICAgICAgICAgICAgICAgUmVnZXgocC5yZXBsYWNlKCIuIiwgIlxcLiIpLnJlcGxhY2UoIioiLCAiLioiKSkubWF0Y2hlcyh1cmwpCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIHBhcnNlKGZpbGU6IEZpbGUpOiBVc2VyU2NyaXB0PyA9IHJ1bkNhdGNoaW5nIHsKICAgICAgICB2YWwgY29kZSA9IGZpbGUucmVhZFRleHQoKQogICAgICAgIHZhbCBoZWFkZXIgPSBSZWdleCgiPT1Vc2VyU2NyaXB0PT0oW1xcc1xcU10qPyk9PS9Vc2VyU2NyaXB0PT0iKS5maW5kKGNvZGUpPy5ncm91cFZhbHVlcz8uZ2V0T3JOdWxsKDEpID86ICIiCiAgICAgICAgZnVuIG1ldGEoa2V5OiBTdHJpbmcpID0gUmVnZXgoIkAka2V5XFxzKyguKykiKS5maW5kKGhlYWRlcik/Lmdyb3VwVmFsdWVzPy5nZXRPck51bGwoMSk/LnRyaW0oKQogICAgICAgIHZhbCBpZCA9IGZpbGUubmFtZVdpdGhvdXRFeHRlbnNpb24KICAgICAgICBVc2VyU2NyaXB0KAogICAgICAgICAgICBpZCA9IGlkLAogICAgICAgICAgICBuYW1lID0gbWV0YSgibmFtZSIpID86IGlkLnJlcGxhY2UoIi0iLCAiICIpLnJlcGxhY2UoIl8iLCAiICIpCiAgICAgICAgICAgICAgICAuc3BsaXQoIiAiKS5qb2luVG9TdHJpbmcoIiAiKSB7IHcgLT4gdy5yZXBsYWNlRmlyc3RDaGFyIHsgaXQudXBwZXJjYXNlKCkgfSB9LAogICAgICAgICAgICB2ZXJzaW9uID0gbWV0YSgidmVyc2lvbiIpID86ICIxLjAuMCIsCiAgICAgICAgICAgIGRlc2NyaXB0aW9uID0gbWV0YSgiZGVzY3JpcHRpb24iKSA/OiAiVXNlclNjcmlwdCBsb2thbCAoJHtmaWxlLm5hbWV9KSIsCiAgICAgICAgICAgIG1hdGNoZXMgPSBSZWdleCgiQG1hdGNoXFxzKyguKykiKS5maW5kQWxsKGhlYWRlcikubWFwIHsgaXQuZ3JvdXBWYWx1ZXNbMV0udHJpbSgpIH0udG9MaXN0KCkKICAgICAgICAgICAgICAgIC5pZkVtcHR5IHsgbGlzdE9mKCIqOi8vKi8qIikgfSwKICAgICAgICAgICAgcnVuQXQgPSBtZXRhKCJydW4tYXQiKSA/OiAiZG9jdW1lbnQtc3RhcnQiLAogICAgICAgICAgICBlbmFibGVkID0gIUZpbGUoZGlyLCAiJGlkLmVuYWJsZWQiKS5leGlzdHMoKSwKICAgICAgICAgICAgZmlsZU5hbWUgPSBmaWxlLm5hbWUsCiAgICAgICAgICAgIGNvZGUgPSBjb2RlCiAgICAgICAgKQogICAgfS5nZXRPck51bGwoKQoKICAgIC8vIHYxLjAuMjogVElEQUsgYWRhIHVzZXJzY3JpcHQgY29udG9oIOKAlCBzdGF0ZSBhd2FsIDEwMCUgZnJlc2gvZW1wdHkKICAgIC8vIChwcm90b3RpcGUgMzZjZDc1MjogZXh0ZW5zaW9ucyA9IFtdKS4gUGVuZ2d1bmEgbWVtYXNhbmcgc2VuZGlyaS4KfQo=
+package com.karsa.browser.userscript
+
+import android.content.Context
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+import org.json.JSONObject
+import java.io.File
+
+/**
+ * Userscript v1 (.user.js / .js) — pengelola di ikon Ekstensi.
+ * Arsitektur modular untuk v2 (ekstensi .crx / Chrome Web Store):
+ *  - v1: baca metadata ==UserScript==, simpan file ke filesDir/userscripts/,
+ *    injeksi document-start di WebView (lihat WebViewFactory).
+ *  - v2: antarmuka yang sama (id/name/enabled/code) dipakai ulang oleh
+ *    loader .crx — tanpa mengubah UI popover.
+ */
+data class UserScript(
+    val id: String,
+    val name: String,
+    val version: String = "1.0.0",
+    val description: String = "",
+    val matches: List<String> = listOf("*://*/*"),
+    val runAt: String = "document-start",
+    val enabled: Boolean = true,
+    val fileName: String,
+    val code: String
+)
+
+class UserScriptManager(private val context: Context) {
+    private val dir: File get() = File(context.filesDir, "userscripts").also { if (!it.exists()) it.mkdirs() }
+
+    suspend fun list(): List<UserScript> = withContext(Dispatchers.IO) {
+        dir.listFiles()?.filter { it.isFile && it.name.endsWith(".js", ignoreCase = true) }
+            ?.sortedBy { it.name }
+            ?.mapNotNull { parse(it) } ?: emptyList()
+    }
+
+    suspend fun install(fileName: String, code: String): UserScript? = withContext(Dispatchers.IO) {
+        val safe = fileName.replace(Regex("[^A-Za-z0-9._-]"), "_").take(120)
+            .let { if (it.endsWith(".js", true)) it else "$it.user.js" }
+        val f = File(dir, safe)
+        f.writeText(code)
+        parse(f)
+    }
+
+    suspend fun remove(id: String): Boolean = withContext(Dispatchers.IO) {
+        dir.listFiles()?.firstOrNull { it.nameWithoutExtension == id || it.name == id }?.delete() ?: false
+    }
+
+    suspend fun setEnabled(id: String, enabled: Boolean) = withContext(Dispatchers.IO) {
+        // v1: enabled disimpan di sidecar .json per file agar file .js tetap murni.
+        val meta = File(dir, "$id.enabled")
+        if (enabled) meta.delete() else meta.writeText("disabled")
+    }
+
+    suspend fun isEnabled(id: String): Boolean = withContext(Dispatchers.IO) {
+        !File(dir, "$id.enabled").exists()
+    }
+
+    /** Gabungkan semua script aktif yang match URL -> satu payload injeksi. */
+    fun combinedCodeFor(url: String, scripts: List<UserScript>): String {
+        val matched = scripts.filter { it.enabled && matches(it.matches, url) }
+        if (matched.isEmpty()) return ""
+        return buildString {
+            append("(function(){try{")
+            matched.forEach { s ->
+                append("\n/* == Karsa UserScript: ${s.name} v${s.version} == */\n")
+                append(s.code)
+                append("\n")
+            }
+            append("}catch(e){console.warn('[Karsa userscript]',e)}})();")
+        }
+    }
+
+    private fun matches(patterns: List<String>, url: String): Boolean {
+        if (patterns.isEmpty()) return true
+        return patterns.any { p ->
+            p == "*://*/*" || p == "*" || url.startsWith(p.removeSuffix("*")) ||
+                Regex(p.replace(".", "\\.").replace("*", ".*")).matches(url)
+        }
+    }
+
+    private fun parse(file: File): UserScript? = runCatching {
+        val code = file.readText()
+        val header = Regex("==UserScript==([\\s\\S]*?)==/UserScript==").find(code)?.groupValues?.getOrNull(1) ?: ""
+        fun meta(key: String) = Regex("@$key\\s+(.+)").find(header)?.groupValues?.getOrNull(1)?.trim()
+        val id = file.nameWithoutExtension
+        UserScript(
+            id = id,
+            name = meta("name") ?: id.replace("-", " ").replace("_", " ")
+                .split(" ").joinToString(" ") { w -> w.replaceFirstChar { it.uppercase() } },
+            version = meta("version") ?: "1.0.0",
+            description = meta("description") ?: "UserScript lokal (${file.name})",
+            matches = Regex("@match\\s+(.+)").findAll(header).map { it.groupValues[1].trim() }.toList()
+                .ifEmpty { listOf("*://*/*") },
+            runAt = meta("run-at") ?: "document-start",
+            enabled = !File(dir, "$id.enabled").exists(),
+            fileName = file.name,
+            code = code
+        )
+    }.getOrNull()
+
+    // v1.0.2: TIDAK ada userscript contoh — state awal 100% fresh/empty
+    // (prototipe 36cd752: extensions = []). Pengguna memasang sendiri.
+}
