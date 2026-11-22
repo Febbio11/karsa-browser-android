@@ -1,1 +1,93 @@
-aW1wb3J0IGphdmEudXRpbC5Qcm9wZXJ0aWVzCgpwbHVnaW5zIHsKICAgIGlkKCJjb20uYW5kcm9pZC5hcHBsaWNhdGlvbiIpCiAgICBpZCgib3JnLmpldGJyYWlucy5rb3RsaW4uYW5kcm9pZCIpCiAgICBpZCgib3JnLmpldGJyYWlucy5rb3RsaW4ucGx1Z2luLmNvbXBvc2UiKQp9CgovLyBSZWxlYXNlIHNpZ25pbmc6IG9wdGlvbmFsLiBDSSB3cml0ZXMga2V5c3RvcmUucHJvcGVydGllcyBmcm9tIEdpdEh1YiBTZWNyZXRzLgovLyBJZiB0aGUgZmlsZSAvIHNlY3JldHMgYXJlIGFic2VudCwgcmVsZWFzZSBmYWxscyBiYWNrIHRvIGRlYnVnIHNpZ25pbmcgc28KLy8gLi9ncmFkbGV3IGFzc2VtYmxlRGVidWcgYWx3YXlzIHdvcmtzIGFuZCBhc3NlbWJsZVJlbGVhc2Ugc3RpbGwgYnVpbGRzLgp2YWwga2V5c3RvcmVQcm9wc0ZpbGUgPSByb290UHJvamVjdC5maWxlKCJrZXlzdG9yZS5wcm9wZXJ0aWVzIikKdmFsIGtleXN0b3JlUHJvcHMgPSBQcm9wZXJ0aWVzKCkKaWYgKGtleXN0b3JlUHJvcHNGaWxlLmV4aXN0cygpKSBrZXlzdG9yZVByb3BzLmxvYWQoa2V5c3RvcmVQcm9wc0ZpbGUuaW5wdXRTdHJlYW0oKSkKdmFsIGhhc1NpZ25pbmcgPSBrZXlzdG9yZVByb3BzLmNvbnRhaW5zS2V5KCJzdG9yZUZpbGUiKQogICAgICAgICYmIGtleXN0b3JlUHJvcHMuY29udGFpbnNLZXkoInN0b3JlUGFzc3dvcmQiKQogICAgICAgICYmIGtleXN0b3JlUHJvcHMuY29udGFpbnNLZXkoImtleUFsaWFzIikKICAgICAgICAmJiBrZXlzdG9yZVByb3BzLmNvbnRhaW5zS2V5KCJrZXlQYXNzd29yZCIpCgphbmRyb2lkIHsKICAgIG5hbWVzcGFjZSA9ICJjb20ua2Fyc2EuYnJvd3NlciIKICAgIGNvbXBpbGVTZGsgPSAzNAoKICAgIGRlZmF1bHRDb25maWcgewogICAgICAgIGFwcGxpY2F0aW9uSWQgPSAiY29tLmthcnNhLmJyb3dzZXIiCiAgICAgICAgbWluU2RrID0gMjYKICAgICAgICB0YXJnZXRTZGsgPSAzNAogICAgICAgIHZlcnNpb25Db2RlID0gMwogICAgICAgIHZlcnNpb25OYW1lID0gIjEuMC4yIgoKICAgICAgICB0ZXN0SW5zdHJ1bWVudGF0aW9uUnVubmVyID0gImFuZHJvaWR4LnRlc3QucnVubmVyLkFuZHJvaWRKVW5pdFJ1bm5lciIKICAgICAgICB2ZWN0b3JEcmF3YWJsZXMgeyB1c2VTdXBwb3J0TGlicmFyeSA9IHRydWUgfQogICAgfQoKICAgIHNpZ25pbmdDb25maWdzIHsKICAgICAgICBpZiAoaGFzU2lnbmluZykgewogICAgICAgICAgICBjcmVhdGUoInJlbGVhc2UiKSB7CiAgICAgICAgICAgICAgICBzdG9yZUZpbGUgPSBmaWxlKGtleXN0b3JlUHJvcHNbInN0b3JlRmlsZSJdIGFzIFN0cmluZykKICAgICAgICAgICAgICAgIHN0b3JlUGFzc3dvcmQgPSBrZXlzdG9yZVByb3BzWyJzdG9yZVBhc3N3b3JkIl0gYXMgU3RyaW5nCiAgICAgICAgICAgICAgICBrZXlBbGlhcyA9IGtleXN0b3JlUHJvcHNbImtleUFsaWFzIl0gYXMgU3RyaW5nCiAgICAgICAgICAgICAgICBrZXlQYXNzd29yZCA9IGtleXN0b3JlUHJvcHNbImtleVBhc3N3b3JkIl0gYXMgU3RyaW5nCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgYnVpbGRUeXBlcyB7CiAgICAgICAgcmVsZWFzZSB7CiAgICAgICAgICAgIGlzTWluaWZ5RW5hYmxlZCA9IGZhbHNlCiAgICAgICAgICAgIGlzU2hyaW5rUmVzb3VyY2VzID0gZmFsc2UKICAgICAgICAgICAgcHJvZ3VhcmRGaWxlcygKICAgICAgICAgICAgICAgIGdldERlZmF1bHRQcm9ndWFyZEZpbGUoInByb2d1YXJkLWFuZHJvaWQtb3B0aW1pemUudHh0IiksCiAgICAgICAgICAgICAgICAicHJvZ3VhcmQtcnVsZXMucHJvIgogICAgICAgICAgICApCiAgICAgICAgICAgIGlmIChoYXNTaWduaW5nKSBzaWduaW5nQ29uZmlnID0gc2lnbmluZ0NvbmZpZ3MuZ2V0QnlOYW1lKCJyZWxlYXNlIikKICAgICAgICB9CiAgICAgICAgZGVidWcgewogICAgICAgICAgICBhcHBsaWNhdGlvbklkU3VmZml4ID0gIi5kZWJ1ZyIKICAgICAgICAgICAgdmVyc2lvbk5hbWVTdWZmaXggPSAiLWRlYnVnIgogICAgICAgIH0KICAgIH0KCiAgICBjb21waWxlT3B0aW9ucyB7CiAgICAgICAgc291cmNlQ29tcGF0aWJpbGl0eSA9IEphdmFWZXJzaW9uLlZFUlNJT05fMTcKICAgICAgICB0YXJnZXRDb21wYXRpYmlsaXR5ID0gSmF2YVZlcnNpb24uVkVSU0lPTl8xNwogICAgfQogICAga290bGluT3B0aW9ucyB7IGp2bVRhcmdldCA9ICIxNyIgfQoKICAgIGJ1aWxkRmVhdHVyZXMgeyBjb21wb3NlID0gdHJ1ZSB9CgogICAgcGFja2FnaW5nIHsKICAgICAgICByZXNvdXJjZXMgeyBleGNsdWRlcyArPSAiL01FVEEtSU5GL3tBTDIuMCxMR1BMMi4xfSIgfQogICAgfQp9CgpkZXBlbmRlbmNpZXMgewogICAgdmFsIGNvbXBvc2VCb20gPSBwbGF0Zm9ybSgiYW5kcm9pZHguY29tcG9zZTpjb21wb3NlLWJvbToyMDI0LjA5LjAwIikKICAgIGltcGxlbWVudGF0aW9uKGNvbXBvc2VCb20pCiAgICBhbmRyb2lkVGVzdEltcGxlbWVudGF0aW9uKGNvbXBvc2VCb20pCgogICAgaW1wbGVtZW50YXRpb24oImFuZHJvaWR4LmNvcmU6Y29yZS1rdHg6MS4xMy4xIikKICAgIGltcGxlbWVudGF0aW9uKCJhbmRyb2lkeC5saWZlY3ljbGU6bGlmZWN5Y2xlLXJ1bnRpbWUtY29tcG9zZToyLjguNSIpCiAgICBpbXBsZW1lbnRhdGlvbigiYW5kcm9pZHgubGlmZWN5Y2xlOmxpZmVjeWNsZS1ydW50aW1lLWt0eDoyLjguNSIpCiAgICBpbXBsZW1lbnRhdGlvbigiYW5kcm9pZHguYWN0aXZpdHk6YWN0aXZpdHktY29tcG9zZToxLjkuMiIpCiAgICBpbXBsZW1lbnRhdGlvbigiYW5kcm9pZHguZGF0YXN0b3JlOmRhdGFzdG9yZS1wcmVmZXJlbmNlczoxLjEuMSIpCiAgICBpbXBsZW1lbnRhdGlvbigiYW5kcm9pZHgud2Via2l0OndlYmtpdDoxLjEyLjEiKQogICAgaW1wbGVtZW50YXRpb24oImFuZHJvaWR4LmNvbXBvc2UudWk6dWkiKQogICAgaW1wbGVtZW50YXRpb24oImFuZHJvaWR4LmNvbXBvc2UudWk6dWktZ3JhcGhpY3MiKQogICAgaW1wbGVtZW50YXRpb24oImFuZHJvaWR4LmNvbXBvc2UudWk6dWktdG9vbGluZy1wcmV2aWV3IikKICAgIGltcGxlbWVudGF0aW9uKCJhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMzptYXRlcmlhbDMiKQogICAgaW1wbGVtZW50YXRpb24oImFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWw6bWF0ZXJpYWwtaWNvbnMtZXh0ZW5kZWQiKQogICAgZGVidWdJbXBsZW1lbnRhdGlvbigiYW5kcm9pZHguY29tcG9zZS51aTp1aS10b29saW5nIikKICAgIGRlYnVnSW1wbGVtZW50YXRpb24oImFuZHJvaWR4LmNvbXBvc2UudWk6dWktdGVzdC1tYW5pZmVzdCIpCn0K
+import java.util.Properties
+
+plugins {
+    id("com.android.application")
+    id("org.jetbrains.kotlin.android")
+    id("org.jetbrains.kotlin.plugin.compose")
+}
+
+// Release signing: optional. CI writes keystore.properties from GitHub Secrets.
+// If the file / secrets are absent, release falls back to debug signing so
+// ./gradlew assembleDebug always works and assembleRelease still builds.
+val keystorePropsFile = rootProject.file("keystore.properties")
+val keystoreProps = Properties()
+if (keystorePropsFile.exists()) keystoreProps.load(keystorePropsFile.inputStream())
+val hasSigning = keystoreProps.containsKey("storeFile")
+        && keystoreProps.containsKey("storePassword")
+        && keystoreProps.containsKey("keyAlias")
+        && keystoreProps.containsKey("keyPassword")
+
+android {
+    namespace = "com.karsa.browser"
+    compileSdk = 34
+
+    defaultConfig {
+        applicationId = "com.karsa.browser"
+        minSdk = 26
+        targetSdk = 34
+        versionCode = 3
+        versionName = "1.0.2"
+
+        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables { useSupportLibrary = true }
+    }
+
+    signingConfigs {
+        if (hasSigning) {
+            create("release") {
+                storeFile = file(keystoreProps["storeFile"] as String)
+                storePassword = keystoreProps["storePassword"] as String
+                keyAlias = keystoreProps["keyAlias"] as String
+                keyPassword = keystoreProps["keyPassword"] as String
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            isMinifyEnabled = false
+            isShrinkResources = false
+            proguardFiles(
+                getDefaultProguardFile("proguard-android-optimize.txt"),
+                "proguard-rules.pro"
+            )
+            if (hasSigning) signingConfig = signingConfigs.getByName("release")
+        }
+        debug {
+            applicationIdSuffix = ".debug"
+            versionNameSuffix = "-debug"
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+    kotlinOptions { jvmTarget = "17" }
+
+    buildFeatures { compose = true }
+
+    packaging {
+        resources { excludes += "/META-INF/{AL2.0,LGPL2.1}" }
+    }
+}
+
+dependencies {
+    val composeBom = platform("androidx.compose:compose-bom:2024.09.00")
+    implementation(composeBom)
+    androidTestImplementation(composeBom)
+
+    implementation("androidx.core:core-ktx:1.13.1")
+    implementation("androidx.lifecycle:lifecycle-runtime-compose:2.8.5")
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.5")
+    implementation("androidx.activity:activity-compose:1.9.2")
+    implementation("androidx.datastore:datastore-preferences:1.1.1")
+    implementation("androidx.webkit:webkit:1.12.1")
+    implementation("androidx.compose.ui:ui")
+    implementation("androidx.compose.ui:ui-graphics")
+    implementation("androidx.compose.ui:ui-tooling-preview")
+    implementation("androidx.compose.material3:material3")
+    implementation("androidx.compose.material:material-icons-extended")
+    debugImplementation("androidx.compose.ui:ui-tooling")
+    debugImplementation("androidx.compose.ui:ui-test-manifest")
+}
