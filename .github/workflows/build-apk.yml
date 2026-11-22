@@ -14,7 +14,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   build:
@@ -96,4 +96,17 @@ jobs:
           path: app/build/outputs/apk/release/*.apk
           if-no-files-found: error
           retention-days: 30
-          
+      - name: Publish rolling release (latest)
+        if: github.ref == 'refs/heads/main'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          APK=$(find app/build/outputs/apk -name "*.apk" | head -1)
+          cp "$APK" karsa-browser-debug.apk
+          VC=$(grep -oP 'versionCode = \K[0-9]+' app/build.gradle.kts)
+          VN=$(grep -oP 'versionName = "\K[^"]+' app/build.gradle.kts)
+          cat > update.json <<EOF
+          {"versionCode": $VC, "versionName": "$VN", "apkUrl": "https://github.com/Febbio11/karsa-browser-android/releases/download/latest/karsa-browser-debug.apk"}
+          EOF
+          gh release view latest >/dev/null 2>&1 || gh release create latest --title "Karsa Browser — Latest" --notes "Build otomatis dari main (debug APK)."
+          gh release upload latest karsa-browser-debug.apk update.json --clobber
